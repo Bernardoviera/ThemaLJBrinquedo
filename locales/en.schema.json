@@ -160,12 +160,9 @@
           "label": "Favicon",
           "info": "Displayed at 32 x 32px"
         },
-        "logo_mobile": {
-          "label": "Mobile logo",
-          "info": "Optional. When set, replaces the logo above on small screens (up to 749px). Leave blank to use the same logo at every size."
-        },
         "logo_mobile_width": {
-          "label": "Mobile logo width"
+          "label": "Mobile logo width",
+          "info": "Resizes the same logo on small screens (up to 749px), no separate image needed."
         }
       }
     },

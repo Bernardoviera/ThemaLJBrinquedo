@@ -129,21 +129,9 @@
     }
   }
 
-  .header__heading-logo--mobile-only {
-    display: block;
-  }
-
-  .header__heading-logo--desktop-only {
-    display: none;
-  }
-
-  @media screen and (min-width: 750px) {
-    .header__heading-logo--mobile-only {
-      display: none;
-    }
-
-    .header__heading-logo--desktop-only {
-      display: block;
+  @media screen and (max-width: 749px) {
+    .header__heading-logo {
+      width: {{ settings.logo_mobile_width }}px;
     }
   }
 
@@ -231,15 +219,11 @@
             {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
             {% capture sizes %}(max-width: {{ settings.logo_width | times: 2 }}px) 50vw, {{ settings.logo_width }}px{% endcapture %}
             {% capture widths %}{{ settings.logo_width }}, {{ settings.logo_width | times: 1.5 | round }}, {{ settings.logo_width | times: 2 }}{% endcapture %}
-            {%- assign logo_desktop_class = 'header__heading-logo motion-reduce' -%}
-            {%- if settings.logo_mobile != blank -%}
-              {%- assign logo_desktop_class = 'header__heading-logo header__heading-logo--desktop-only motion-reduce' -%}
-            {%- endif -%}
             {{
               settings.logo
               | image_url: width: 600
               | image_tag:
-                class: logo_desktop_class,
+                class: 'header__heading-logo motion-reduce',
                 widths: widths,
                 height: logo_height,
                 width: settings.logo_width,
@@ -247,20 +231,6 @@
                 sizes: sizes,
                 preload: true
             }}
-            {%- if settings.logo_mobile != blank -%}
-              {%- assign logo_mobile_alt = settings.logo_mobile.alt | default: shop.name | escape -%}
-              {%- assign logo_mobile_height = settings.logo_mobile_width | divided_by: settings.logo_mobile.aspect_ratio -%}
-              {{
-                settings.logo_mobile
-                | image_url: width: 600
-                | image_tag:
-                  class: 'header__heading-logo header__heading-logo--mobile-only motion-reduce',
-                  height: logo_mobile_height,
-                  width: settings.logo_mobile_width,
-                  alt: logo_mobile_alt,
-                  preload: true
-              }}
-            {%- endif -%}
           </div>
         {%- else -%}
           <span class="h2">{{ shop.name }}</span>
@@ -292,15 +262,11 @@
             {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
             {% capture sizes %}(min-width: 750px) {{ settings.logo_width }}px, 50vw{% endcapture %}
             {% capture widths %}{{ settings.logo_width }}, {{ settings.logo_width | times: 1.5 | round }}, {{ settings.logo_width | times: 2 }}{% endcapture %}
-            {%- assign logo_desktop_class = 'header__heading-logo' -%}
-            {%- if settings.logo_mobile != blank -%}
-              {%- assign logo_desktop_class = 'header__heading-logo header__heading-logo--desktop-only' -%}
-            {%- endif -%}
             {{
               settings.logo
               | image_url: width: 600
               | image_tag:
-                class: logo_desktop_class,
+                class: 'header__heading-logo',
                 widths: widths,
                 height: logo_height,
                 width: settings.logo_width,
@@ -308,20 +274,6 @@
                 sizes: sizes,
                 preload: true
             }}
-            {%- if settings.logo_mobile != blank -%}
-              {%- assign logo_mobile_alt = settings.logo_mobile.alt | default: shop.name | escape -%}
-              {%- assign logo_mobile_height = settings.logo_mobile_width | divided_by: settings.logo_mobile.aspect_ratio -%}
-              {{
-                settings.logo_mobile
-                | image_url: width: 600
-                | image_tag:
-                  class: 'header__heading-logo header__heading-logo--mobile-only',
-                  height: logo_mobile_height,
-                  width: settings.logo_mobile_width,
-                  alt: logo_mobile_alt,
-                  preload: true
-              }}
-            {%- endif -%}
           </div>
         {%- else -%}
           <span class="h2">{{ shop.name }}</span>

@@ -328,12 +328,9 @@
           "label": "Favikona",
           "info": "Zobrazeno ve velikosti 32 x 32px"
         },
-        "logo_mobile": {
-          "label": "Mobilní logo",
-          "info": "Volitelné. Pokud je nastaveno, nahradí výše uvedené logo na malých obrazovkách (do 749px). Ponechte prázdné pro použití stejného loga všude."
-        },
         "logo_mobile_width": {
-          "label": "Šířka mobilního loga"
+          "label": "Šířka loga na mobilu",
+          "info": "Změní velikost stejného loga na malých obrazovkách (do 749px), bez samostatného obrázku."
         }
       }
     },

@@ -11,6 +11,7 @@
   "current": {
     "logo": "shopify://shop_images/78d69a48-00c9-4e5b-ad8f-7fa2e822dedf_9500f61f-b653-4346-b86f-b635b8745cef.png",
     "logo_width": 200,
+    "logo_mobile_width": 200,
     "favicon": "shopify://shop_images/e37f0a44-36d0-4ce2-945e-85a63151ba15_bbb5bfb9-ae19-4350-983f-4eeef43ef325.png",
     "type_header_font": "playfair_display_n4",
     "heading_scale": 100,
@@ -216,6 +217,7 @@
   "presets": {
     "Dawn": {
       "logo_width": 90,
+      "logo_mobile_width": 90,
       "customer_account_menu": "customer-account-main-menu",
       "color_schemes": {
         "scheme-1": {

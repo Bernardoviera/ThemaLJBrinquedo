@@ -328,12 +328,9 @@
           "label": "Favicon",
           "info": "Näytetään koossa 32 x 32px"
         },
-        "logo_mobile": {
-          "label": "Mobiililogo",
-          "info": "Valinnainen. Jos asetettu, korvaa yllä olevan logon pienillä näytöillä (enintään 749px). Jätä tyhjäksi käyttääksesi samaa logoa kaikkialla."
-        },
         "logo_mobile_width": {
-          "label": "Mobiililogon leveys"
+          "label": "Logon leveys mobiilissa",
+          "info": "Muuttaa saman logon kokoa pienillä näytöillä (enintään 749px), ilman erillistä kuvaa."
         }
       }
     },

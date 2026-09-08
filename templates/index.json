@@ -9,58 +9,114 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "hero_slideshow": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "slide-1": {
+          "type": "slide",
           "settings": {
             "heading": "Brinquedos que viram história",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "subheading": "Diversão segura para cada fase da infância, com entrega para todo o Brasil.",
+            "button_label": "Ver coleção completa",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-5",
+            "image_overlay_opacity": 20
           }
         },
-        "text": {
-          "type": "text",
+        "slide-2": {
+          "type": "slide",
           "settings": {
-            "text": "Diversão segura para cada fase da infância, com entrega para todo o Brasil.",
-            "text_style": "subtitle"
+            "heading": "Novidades toda semana",
+            "heading_size": "h0",
+            "subheading": "Brinquedos educativos e divertidos chegando sempre.",
+            "button_label": "Ver novidades",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-3",
+            "image_overlay_opacity": 20
           }
         },
-        "buttons": {
-          "type": "buttons",
+        "slide-3": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Ver coleção completa",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "Presentes que fazem sorrir",
+            "heading_size": "h0",
+            "subheading": "Filtre por idade, interesse ou orçamento e ache o presente ideal em minutos.",
+            "button_label": "Encontrar presente",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-6",
+            "image_overlay_opacity": 20
           }
         }
       },
-      "block_order": ["heading", "text", "buttons"],
+      "block_order": [
+        "slide-1",
+        "slide-2",
+        "slide-3"
+      ],
       "settings": {
-        "image_overlay_opacity": 20,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "image_behavior": "ambient",
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-5",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 6,
+        "image_behavior": "none",
         "show_text_below": false
       }
     },
     "trust_bar": {
       "type": "trust-bar",
       "blocks": {
-        "item-1": { "type": "item", "settings": { "icon": "truck", "text": "Frete para todo o Brasil" } },
-        "item-2": { "type": "item", "settings": { "icon": "lock", "text": "Compra 100% segura" } },
-        "item-3": { "type": "item", "settings": { "icon": "return", "text": "Troca fácil em 30 dias" } },
-        "item-4": { "type": "item", "settings": { "icon": "price_tag", "text": "Parcelamento em até 12x" } }
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "text": "Frete para todo o Brasil"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "lock",
+            "text": "Compra 100% segura"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "text": "Troca fácil em 30 dias"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "price_tag",
+            "text": "Parcelamento em até 12x"
+          }
+        }
       },
-      "block_order": ["item-1", "item-2", "item-3", "item-4"],
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
       "settings": {
         "color_scheme": "scheme-2",
         "padding_top": 20,
@@ -70,12 +126,41 @@
     "shop_by_age": {
       "type": "shop-by-age",
       "blocks": {
-        "age-0-2": { "type": "age_group", "settings": { "title": "0-2 anos", "link": "shopify://collections/all" } },
-        "age-3-5": { "type": "age_group", "settings": { "title": "3-5 anos", "link": "shopify://collections/all" } },
-        "age-6-8": { "type": "age_group", "settings": { "title": "6-8 anos", "link": "shopify://collections/all" } },
-        "age-9-mais": { "type": "age_group", "settings": { "title": "9+ anos", "link": "shopify://collections/all" } }
+        "age-0-2": {
+          "type": "age_group",
+          "settings": {
+            "title": "0-2 anos",
+            "link": "shopify://collections/all"
+          }
+        },
+        "age-3-5": {
+          "type": "age_group",
+          "settings": {
+            "title": "3-5 anos",
+            "link": "shopify://collections/all"
+          }
+        },
+        "age-6-8": {
+          "type": "age_group",
+          "settings": {
+            "title": "6-8 anos",
+            "link": "shopify://collections/all"
+          }
+        },
+        "age-9-mais": {
+          "type": "age_group",
+          "settings": {
+            "title": "9+ anos",
+            "link": "shopify://collections/all"
+          }
+        }
       },
-      "block_order": ["age-0-2", "age-3-5", "age-6-8", "age-9-mais"],
+      "block_order": [
+        "age-0-2",
+        "age-3-5",
+        "age-6-8",
+        "age-9-mais"
+      ],
       "settings": {
         "title": "Compre por idade",
         "heading_size": "h1",
@@ -118,7 +203,10 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "settings": { "heading": "Escolhido com carinho, brinquedo por brinquedo", "heading_size": "h1" }
+          "settings": {
+            "heading": "Escolhido com carinho, brinquedo por brinquedo",
+            "heading_size": "h1"
+          }
         },
         "text": {
           "type": "text",
@@ -128,7 +216,10 @@
           }
         }
       },
-      "block_order": ["heading", "text"],
+      "block_order": [
+        "heading",
+        "text"
+      ],
       "settings": {
         "height": "medium",
         "desktop_image_width": "medium",
@@ -147,11 +238,33 @@
     "gift_finder_banner": {
       "type": "gift-finder-banner",
       "blocks": {
-        "cta-1": { "type": "cta", "settings": { "label": "Para meninos", "link": "shopify://collections/all" } },
-        "cta-2": { "type": "cta", "settings": { "label": "Para meninas", "link": "shopify://collections/all" } },
-        "cta-3": { "type": "cta", "settings": { "label": "Presentes até R$ 50", "link": "shopify://collections/all" } }
+        "cta-1": {
+          "type": "cta",
+          "settings": {
+            "label": "Para meninos",
+            "link": "shopify://collections/all"
+          }
+        },
+        "cta-2": {
+          "type": "cta",
+          "settings": {
+            "label": "Para meninas",
+            "link": "shopify://collections/all"
+          }
+        },
+        "cta-3": {
+          "type": "cta",
+          "settings": {
+            "label": "Presentes até R$ 50",
+            "link": "shopify://collections/all"
+          }
+        }
       },
-      "block_order": ["cta-1", "cta-2", "cta-3"],
+      "block_order": [
+        "cta-1",
+        "cta-2",
+        "cta-3"
+      ],
       "settings": {
         "heading": "Ainda não achou o presente perfeito?",
         "heading_size": "h1",
@@ -189,7 +302,11 @@
           }
         }
       },
-      "block_order": ["review-1", "review-2", "review-3"],
+      "block_order": [
+        "review-1",
+        "review-2",
+        "review-3"
+      ],
       "settings": {
         "title": "Quem comprou, aprovou",
         "heading_size": "h1",
@@ -234,7 +351,12 @@
           }
         }
       },
-      "block_order": ["row-1", "row-2", "row-3", "row-4"],
+      "block_order": [
+        "row-1",
+        "row-2",
+        "row-3",
+        "row-4"
+      ],
       "settings": {
         "caption": "",
         "heading": "Perguntas frequentes",
@@ -255,15 +377,27 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "settings": { "heading": "Receba novidades e promoções", "heading_size": "h1" }
+          "settings": {
+            "heading": "Receba novidades e promoções",
+            "heading_size": "h1"
+          }
         },
         "paragraph": {
           "type": "paragraph",
-          "settings": { "text": "<p>Cadastre seu e-mail e seja o primeiro a saber de lançamentos e ofertas.</p>" }
+          "settings": {
+            "text": "<p>Cadastre seu e-mail e seja o primeiro a saber de lançamentos e ofertas.</p>"
+          }
         },
-        "email_form": { "type": "email_form", "settings": {} }
+        "email_form": {
+          "type": "email_form",
+          "settings": {}
+        }
       },
-      "block_order": ["heading", "paragraph", "email_form"],
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
       "settings": {
         "color_scheme": "scheme-4",
         "full_width": true,
@@ -273,7 +407,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "hero_slideshow",
     "trust_bar",
     "shop_by_age",
     "featured_collection",

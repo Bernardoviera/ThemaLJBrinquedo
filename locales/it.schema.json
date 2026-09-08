@@ -328,12 +328,9 @@
           "label": "Favicon",
           "info": "Visualizzato a 32 x 32 px"
         },
-        "logo_mobile": {
-          "label": "Logo per dispositivi mobili",
-          "info": "Facoltativo. Se impostato, sostituisce il logo sopra sugli schermi piccoli (fino a 749px). Lascia vuoto per usare lo stesso logo ovunque."
-        },
         "logo_mobile_width": {
-          "label": "Larghezza del logo mobile"
+          "label": "Larghezza del logo su mobile",
+          "info": "Ridimensiona lo stesso logo sugli schermi piccoli (fino a 749px), senza bisogno di un'immagine separata."
         }
       }
     },

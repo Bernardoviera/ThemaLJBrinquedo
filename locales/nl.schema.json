@@ -328,12 +328,9 @@
           "label": "Favicon",
           "info": "Weergegeven op 32 x 32 px"
         },
-        "logo_mobile": {
-          "label": "Mobiel logo",
-          "info": "Optioneel. Indien ingesteld, vervangt dit het bovenstaande logo op kleine schermen (tot 749px). Laat leeg om overal hetzelfde logo te gebruiken."
-        },
         "logo_mobile_width": {
-          "label": "Breedte van mobiel logo"
+          "label": "Breedte logo op mobiel",
+          "info": "Verandert het formaat van hetzelfde logo op kleine schermen (tot 749px), zonder aparte afbeelding."
         }
       }
     },

@@ -26,12 +26,6 @@
         "label": "t:settings_schema.logo.settings.logo_width.label"
       },
       {
-        "type": "image_picker",
-        "id": "logo_mobile",
-        "label": "t:settings_schema.logo.settings.logo_mobile.label",
-        "info": "t:settings_schema.logo.settings.logo_mobile.info"
-      },
-      {
         "type": "range",
         "id": "logo_mobile_width",
         "min": 50,
@@ -39,7 +33,8 @@
         "step": 10,
         "default": 100,
         "unit": "px",
-        "label": "t:settings_schema.logo.settings.logo_mobile_width.label"
+        "label": "t:settings_schema.logo.settings.logo_mobile_width.label",
+        "info": "t:settings_schema.logo.settings.logo_mobile_width.info"
       },
       {
         "type": "image_picker",

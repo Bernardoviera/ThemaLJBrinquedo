@@ -328,12 +328,9 @@
           "label": "Favorittikon",
           "info": "Vises med 32 x 32 piksler"
         },
-        "logo_mobile": {
-          "label": "Mobil logo",
-          "info": "Valgfritt. Hvis angitt, erstatter den logoen over på små skjermer (opptil 749px). La stå tomt for å bruke samme logo overalt."
-        },
         "logo_mobile_width": {
-          "label": "Bredde på mobil logo"
+          "label": "Logobredde på mobil",
+          "info": "Endrer størrelsen på den samme logoen på små skjermer (opptil 749px), uten separat bilde."
         }
       }
     },

@@ -328,12 +328,9 @@
           "label": "Favicon",
           "info": "Apresentado a 32 x 32 px"
         },
-        "logo_mobile": {
-          "label": "Logótipo para telemóvel",
-          "info": "Opcional. Se definido, substitui o logótipo acima em ecrãs pequenos (até 749px). Deixe em branco para usar o mesmo logótipo em todos os tamanhos."
-        },
         "logo_mobile_width": {
-          "label": "Largura do logótipo para telemóvel"
+          "label": "Largura do logótipo no telemóvel",
+          "info": "Ajusta o tamanho do mesmo logótipo em ecrãs pequenos (até 749px), sem precisar de uma imagem separada."
         }
       }
     },

@@ -328,12 +328,9 @@
           "label": "Favicon",
           "info": "Visas med 32 x 32 px"
         },
-        "logo_mobile": {
-          "label": "Mobil logotyp",
-          "info": "Valfritt. Om den anges ersätter den logotypen ovan på små skärmar (upp till 749px). Lämna tomt för att använda samma logotyp överallt."
-        },
         "logo_mobile_width": {
-          "label": "Bredd på mobil logotyp"
+          "label": "Logotypbredd på mobil",
+          "info": "Ändrar storlek på samma logotyp på små skärmar (upp till 749px), utan separat bild."
         }
       }
     },

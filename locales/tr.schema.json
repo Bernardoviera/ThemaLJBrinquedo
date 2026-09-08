@@ -328,12 +328,9 @@
           "label": "Favicon",
           "info": "32 x 32 pikselde görüntüleniyor"
         },
-        "logo_mobile": {
-          "label": "Mobil logo",
-          "info": "İsteğe bağlı. Ayarlanırsa, küçük ekranlarda (749px'e kadar) yukarıdaki logonun yerini alır. Her boyutta aynı logoyu kullanmak için boş bırakın."
-        },
         "logo_mobile_width": {
-          "label": "Mobil logo genişliği"
+          "label": "Mobilde logo genişliği",
+          "info": "Küçük ekranlarda (749px'e kadar) aynı logonun boyutunu ayrı bir görsele gerek kalmadan değiştirir."
         }
       }
     },

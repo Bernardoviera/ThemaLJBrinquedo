@@ -328,12 +328,9 @@
           "label": "Ikona Favicon",
           "info": "Wyświetlane w rozmiarze 32 x 32 piksele"
         },
-        "logo_mobile": {
-          "label": "Logo mobilne",
-          "info": "Opcjonalne. Jeśli ustawione, zastępuje powyższe logo na małych ekranach (do 749px). Pozostaw puste, aby używać tego samego logo wszędzie."
-        },
         "logo_mobile_width": {
-          "label": "Szerokość logo mobilnego"
+          "label": "Szerokość logo na urządzeniach mobilnych",
+          "info": "Zmienia rozmiar tego samego logo na małych ekranach (do 749px), bez osobnego obrazu."
         }
       }
     },
