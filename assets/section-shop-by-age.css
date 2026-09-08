@@ -1,0 +1,46 @@
+.shop-by-age__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .shop-by-age__grid {
+    grid-template-columns: repeat(var(--shop-by-age-columns, 4), 1fr);
+  }
+}
+
+.shop-by-age__item {
+  text-align: center;
+}
+
+.shop-by-age__link {
+  display: block;
+  text-decoration: none;
+  color: rgb(var(--color-foreground));
+}
+
+.shop-by-age__media {
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto 1.2rem;
+  max-width: 14rem;
+  box-shadow: 0 0.4rem 1rem rgba(var(--color-shadow), 0.15);
+}
+
+.shop-by-age__media .media,
+.shop-by-age__media img,
+.shop-by-age__media svg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.shop-by-age__label {
+  font-size: 1.6rem;
+  font-weight: 600;
+}

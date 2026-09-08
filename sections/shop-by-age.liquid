@@ -1,0 +1,187 @@
+{{ 'section-shop-by-age.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  #shop-by-age-{{ section.id }} {
+    --shop-by-age-columns: {{ section.settings.columns_desktop }};
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div
+    id="shop-by-age-{{ section.id }}"
+    class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    {% if settings.animations_reveal_on_scroll %}
+      data-cascade
+    {% endif %}
+  >
+    {%- unless section.settings.title == blank -%}
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+          {{ section.settings.title }}
+        </h2>
+      </div>
+    {%- endunless -%}
+
+    <ul class="shop-by-age__grid" role="list">
+      {%- for block in section.blocks -%}
+        {%- assign placeholder_index = forloop.index0 | modulo: 4 | plus: 1 -%}
+        {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_index -%}
+        <li class="shop-by-age__item" {{ block.shopify_attributes }}>
+          <a
+            href="{{ block.settings.link | default: '#' }}"
+            class="shop-by-age__link animate-arrow"
+            {% if block.settings.link == blank %}
+              role="link" aria-disabled="true"
+            {% endif %}
+          >
+            <div class="shop-by-age__media">
+              {%- if block.settings.image -%}
+                <img
+                  src="{{ block.settings.image | image_url: width: 400 }}"
+                  srcset="{{ block.settings.image | image_url: width: 200 }} 200w, {{ block.settings.image | image_url: width: 400 }} 400w"
+                  sizes="14rem"
+                  alt="{{ block.settings.image.alt | default: block.settings.title | escape }}"
+                  loading="lazy"
+                  width="{{ block.settings.image.width }}"
+                  height="{{ block.settings.image.height }}"
+                  class="motion-reduce"
+                >
+              {%- else -%}
+                {{ placeholder_image | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+            </div>
+            <p class="shop-by-age__label">{{ block.settings.title | escape }}</p>
+          </a>
+        </li>
+      {%- else -%}
+        {%- for i in (1..4) -%}
+          {%- assign placeholder_image = 'collection-apparel-' | append: i -%}
+          <li class="shop-by-age__item">
+            <span class="shop-by-age__link">
+              <div class="shop-by-age__media">
+                {{ placeholder_image | placeholder_svg_tag: 'placeholder-svg' }}
+              </div>
+              <p class="shop-by-age__label">{{ 'sections.shop_by_age.placeholder_label' | t }}</p>
+            </span>
+          </li>
+        {%- endfor -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.shop_by_age.name",
+  "class": "section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "t:sections.shop_by_age.settings.title.default",
+      "label": "t:sections.shop_by_age.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        { "value": "h2", "label": "t:sections.all.heading_size.options__1.label" },
+        { "value": "h1", "label": "t:sections.all.heading_size.options__2.label" },
+        { "value": "h0", "label": "t:sections.all.heading_size.options__3.label" }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "default": 4,
+      "label": "t:sections.shop_by_age.settings.columns_desktop.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "age_group",
+      "name": "t:sections.shop_by_age.blocks.age_group.name",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.shop_by_age.blocks.age_group.settings.image.label"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "default": "t:sections.shop_by_age.blocks.age_group.settings.title.default",
+          "label": "t:sections.shop_by_age.blocks.age_group.settings.title.label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.shop_by_age.blocks.age_group.settings.link.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.shop_by_age.presets.name",
+      "blocks": [
+        { "type": "age_group" },
+        { "type": "age_group" },
+        { "type": "age_group" },
+        { "type": "age_group" }
+      ]
+    }
+  ]
+}
+{% endschema %}
