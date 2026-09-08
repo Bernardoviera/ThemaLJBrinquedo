@@ -35,7 +35,7 @@
         "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-5",
         "mobile_content_alignment": "center",

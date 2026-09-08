@@ -132,11 +132,14 @@
   {%- if header_transparent -%}
     #shopify-section-{{ section.id }} {
       margin-bottom: calc(-1 * var(--header-height, 9rem));
-      background: transparent;
-      --color-foreground: 255, 255, 255;
     }
 
     #shopify-section-{{ section.id }} .header-wrapper {
+      transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+    }
+
+    #shopify-section-{{ section.id }}:not(.scrolled-solid) .header-wrapper {
+      --color-foreground: 255, 255, 255;
       background: transparent;
       border-bottom-color: transparent;
     }
@@ -476,6 +479,26 @@
 
   customElements.define('sticky-header', StickyHeader);
 {% endjavascript %}
+
+{%- if header_transparent -%}
+  <script>
+    (function () {
+      var header = document.getElementById('shopify-section-{{ section.id }}');
+      var hero = document.querySelector('#MainContent > .shopify-section');
+      if (!header || !hero) return;
+
+      function updateHeaderSolidState() {
+        var threshold = Math.max(hero.offsetHeight - header.offsetHeight, 0);
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        header.classList.toggle('scrolled-solid', scrollTop >= threshold);
+      }
+
+      window.addEventListener('scroll', updateHeaderSolidState, { passive: true });
+      window.addEventListener('resize', updateHeaderSolidState);
+      updateHeaderSolidState();
+    })();
+  </script>
+{%- endif -%}
 
 <script type="application/ld+json">
   {
