@@ -372,6 +372,22 @@
           "label": "เมนู"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "แสดงปุ่ม WhatsApp แบบลอย"
+        },
+        "whatsapp_button_phone": {
+          "label": "หมายเลข WhatsApp",
+          "info": "รหัสประเทศ + รหัสพื้นที่ ตัวเลขเท่านั้น เช่น 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "ข้อความเปิด",
+          "default": "สวัสดีค่ะ/ครับ! ฉันมาจากเว็บไซต์ LJ Brinquedos และมีคำถาม"
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "เปิดตามค่าเริ่มต้น"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "ซื้อตามช่วงอายุ",
+      "settings": {
+        "title": {
+          "label": "หัวข้อ",
+          "default": "ซื้อตามช่วงอายุ"
+        },
+        "columns_desktop": {
+          "label": "จำนวนคอลัมน์"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "ช่วงอายุ",
+          "settings": {
+            "image": {
+              "label": "รูปภาพ"
+            },
+            "title": {
+              "label": "หัวข้อ",
+              "default": "0-2 ปี"
+            },
+            "link": {
+              "label": "ลิงก์"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "ซื้อตามช่วงอายุ"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "แบนเนอร์ของขวัญ",
+      "settings": {
+        "heading": {
+          "label": "หัวข้อ",
+          "default": "ยังหาของขวัญที่ใช่ไม่เจอใช่ไหม?"
+        },
+        "text": {
+          "label": "ข้อความ",
+          "default": "<p>กรองตามอายุ ความสนใจ หรืองบประมาณ เพื่อหาของเล่นที่เหมาะสมในไม่กี่นาที</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "ปุ่ม",
+          "settings": {
+            "label": {
+              "label": "ข้อความปุ่ม",
+              "default": "ดูไอเดียของขวัญ"
+            },
+            "link": {
+              "label": "ลิงก์"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "แบนเนอร์ของขวัญ"
+      }
+    },
+    "trust_bar": {
+      "name": "แถบความน่าเชื่อถือ",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "รายการ",
+          "settings": {
+            "icon": {
+              "label": "ไอคอน",
+              "options__1": {
+                "label": "รถบรรทุก"
+              },
+              "options__2": {
+                "label": "แม่กุญแจ"
+              },
+              "options__3": {
+                "label": "การคืนสินค้า"
+              },
+              "options__4": {
+                "label": "ป้ายราคา"
+              },
+              "options__5": {
+                "label": "เครื่องหมายถูก"
+              }
+            },
+            "text": {
+              "label": "ข้อความ",
+              "default": "ชำระเงินปลอดภัย 100%"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "แถบความน่าเชื่อถือ"
+      }
+    },
+    "testimonials": {
+      "name": "รีวิวลูกค้า",
+      "settings": {
+        "title": {
+          "label": "หัวข้อ",
+          "default": "คุณพ่อคุณแม่ชื่นชอบ"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "รีวิว",
+          "settings": {
+            "rating": {
+              "label": "คะแนน (1-5)"
+            },
+            "quote": {
+              "label": "รีวิว",
+              "default": "<p>มาถึงเร็วมากและลูกของฉันชอบมาก! คุณภาพดีมาก</p>"
+            },
+            "author": {
+              "label": "ชื่อลูกค้า",
+              "default": "ลูกค้าที่พึงพอใจ"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "รีวิวลูกค้า"
       }
     }
   }

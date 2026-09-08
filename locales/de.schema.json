@@ -372,6 +372,22 @@
           "label": "Menü"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "Schwebenden WhatsApp-Button anzeigen"
+        },
+        "whatsapp_button_phone": {
+          "label": "WhatsApp-Nummer",
+          "info": "Landes- und Ortsvorwahl, nur Ziffern. Z. B.: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "Eröffnungsnachricht",
+          "default": "Hallo! Ich komme von der LJ Brinquedos-Website und habe eine Frage."
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "Standardmäßig geöffnet"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "Nach Alter einkaufen",
+      "settings": {
+        "title": {
+          "label": "Überschrift",
+          "default": "Nach Alter einkaufen"
+        },
+        "columns_desktop": {
+          "label": "Spalten"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "Altersgruppe",
+          "settings": {
+            "image": {
+              "label": "Bild"
+            },
+            "title": {
+              "label": "Überschrift",
+              "default": "0-2 Jahre"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Nach Alter einkaufen"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "Geschenke-Banner",
+      "settings": {
+        "heading": {
+          "label": "Überschrift",
+          "default": "Noch nicht das perfekte Geschenk gefunden?"
+        },
+        "text": {
+          "label": "Text",
+          "default": "<p>Filtern Sie nach Alter, Interesse oder Budget und finden Sie in Minuten das richtige Spielzeug.</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "Schaltfläche",
+          "settings": {
+            "label": {
+              "label": "Button-Text",
+              "default": "Geschenkideen ansehen"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Geschenke-Banner"
+      }
+    },
+    "trust_bar": {
+      "name": "Vertrauensleiste",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "Element",
+          "settings": {
+            "icon": {
+              "label": "Symbol",
+              "options__1": {
+                "label": "LKW"
+              },
+              "options__2": {
+                "label": "Schloss"
+              },
+              "options__3": {
+                "label": "Rückgabe"
+              },
+              "options__4": {
+                "label": "Preisschild"
+              },
+              "options__5": {
+                "label": "Häkchen"
+              }
+            },
+            "text": {
+              "label": "Text",
+              "default": "100 % sicherer Einkauf"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Vertrauensleiste"
+      }
+    },
+    "testimonials": {
+      "name": "Kundenstimmen",
+      "settings": {
+        "title": {
+          "label": "Überschrift",
+          "default": "Von Eltern geliebt"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "Bewertung",
+          "settings": {
+            "rating": {
+              "label": "Bewertung (1-5)"
+            },
+            "quote": {
+              "label": "Bewertung",
+              "default": "<p>Kam schnell an und mein Kind liebt es! Sehr gute Qualität.</p>"
+            },
+            "author": {
+              "label": "Kundenname",
+              "default": "Zufriedener Kunde"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Kundenstimmen"
       }
     }
   }

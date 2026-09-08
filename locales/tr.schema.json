@@ -372,6 +372,22 @@
           "label": "Menü"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "Yüzen WhatsApp düğmesini göster"
+        },
+        "whatsapp_button_phone": {
+          "label": "WhatsApp numarası",
+          "info": "Ülke + alan kodu, yalnızca rakamlar. Örn.: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "Açılış mesajı",
+          "default": "Merhaba! LJ Brinquedos sitesinden yazıyorum, bir sorum var."
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "Varsayılan olarak açık"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "Yaşa göre alışveriş",
+      "settings": {
+        "title": {
+          "label": "Başlık",
+          "default": "Yaşa göre alışveriş"
+        },
+        "columns_desktop": {
+          "label": "Sütunlar"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "Yaş grubu",
+          "settings": {
+            "image": {
+              "label": "Görsel"
+            },
+            "title": {
+              "label": "Başlık",
+              "default": "0-2 yaş"
+            },
+            "link": {
+              "label": "Bağlantı"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Yaşa göre alışveriş"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "Hediye banner",
+      "settings": {
+        "heading": {
+          "label": "Başlık",
+          "default": "Hâlâ mükemmel hediyeyi bulamadınız mı?"
+        },
+        "text": {
+          "label": "Metin",
+          "default": "<p>Yaşa, ilgi alanına veya bütçeye göre filtreleyin ve doğru oyuncağı dakikalar içinde bulun.</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "Düğme",
+          "settings": {
+            "label": {
+              "label": "Düğme metni",
+              "default": "Hediye fikirlerine bak"
+            },
+            "link": {
+              "label": "Bağlantı"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Hediye banner"
+      }
+    },
+    "trust_bar": {
+      "name": "Güven çubuğu",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "Öğe",
+          "settings": {
+            "icon": {
+              "label": "Simge",
+              "options__1": {
+                "label": "Kamyon"
+              },
+              "options__2": {
+                "label": "Kilit"
+              },
+              "options__3": {
+                "label": "İade"
+              },
+              "options__4": {
+                "label": "Fiyat etiketi"
+              },
+              "options__5": {
+                "label": "Onay işareti"
+              }
+            },
+            "text": {
+              "label": "Metin",
+              "default": "%100 güvenli alışveriş"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Güven çubuğu"
+      }
+    },
+    "testimonials": {
+      "name": "Yorumlar",
+      "settings": {
+        "title": {
+          "label": "Başlık",
+          "default": "Ebeveynlerin favorisi"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "Yorum",
+          "settings": {
+            "rating": {
+              "label": "Puan (1-5)"
+            },
+            "quote": {
+              "label": "Yorum",
+              "default": "<p>Hızlı geldi ve çocuğum çok sevdi! Kalitesi çok iyi.</p>"
+            },
+            "author": {
+              "label": "Müşteri adı",
+              "default": "Memnun müşteri"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Yorumlar"
       }
     }
   }

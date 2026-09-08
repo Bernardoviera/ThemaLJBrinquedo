@@ -372,6 +372,22 @@
           "label": "Menu"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "Pokaż pływający przycisk WhatsApp"
+        },
+        "whatsapp_button_phone": {
+          "label": "Numer WhatsApp",
+          "info": "Numer kierunkowy kraju i regionu, same cyfry. Np.: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "Wiadomość powitalna",
+          "default": "Cześć! Piszę ze strony LJ Brinquedos i mam pytanie."
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "Domyślnie otwarte"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "Kupuj według wieku",
+      "settings": {
+        "title": {
+          "label": "Nagłówek",
+          "default": "Kupuj według wieku"
+        },
+        "columns_desktop": {
+          "label": "Kolumny"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "Grupa wiekowa",
+          "settings": {
+            "image": {
+              "label": "Obraz"
+            },
+            "title": {
+              "label": "Nagłówek",
+              "default": "0-2 lata"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Kupuj według wieku"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "Baner z prezentami",
+      "settings": {
+        "heading": {
+          "label": "Nagłówek",
+          "default": "Nadal nie znalazłeś idealnego prezentu?"
+        },
+        "text": {
+          "label": "Tekst",
+          "default": "<p>Filtruj według wieku, zainteresowań lub budżetu i znajdź odpowiednią zabawkę w kilka minut.</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "Przycisk",
+          "settings": {
+            "label": {
+              "label": "Tekst przycisku",
+              "default": "Zobacz pomysły na prezent"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Baner z prezentami"
+      }
+    },
+    "trust_bar": {
+      "name": "Pasek zaufania",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "Element",
+          "settings": {
+            "icon": {
+              "label": "Ikona",
+              "options__1": {
+                "label": "Ciężarówka"
+              },
+              "options__2": {
+                "label": "Kłódka"
+              },
+              "options__3": {
+                "label": "Zwrot"
+              },
+              "options__4": {
+                "label": "Metka z ceną"
+              },
+              "options__5": {
+                "label": "Znacznik"
+              }
+            },
+            "text": {
+              "label": "Tekst",
+              "default": "100% bezpieczne zakupy"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Pasek zaufania"
+      }
+    },
+    "testimonials": {
+      "name": "Opinie klientów",
+      "settings": {
+        "title": {
+          "label": "Nagłówek",
+          "default": "Uwielbiane przez rodziców"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "Opinia",
+          "settings": {
+            "rating": {
+              "label": "Ocena (1-5)"
+            },
+            "quote": {
+              "label": "Opinia",
+              "default": "<p>Dotarło szybko, a moje dziecko było zachwycone! Bardzo dobra jakość.</p>"
+            },
+            "author": {
+              "label": "Imię klienta",
+              "default": "Zadowolony klient"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Opinie klientów"
       }
     }
   }

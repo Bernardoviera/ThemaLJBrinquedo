@@ -372,6 +372,22 @@
           "label": "Nabídka"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "Zobrazit plovoucí tlačítko WhatsApp"
+        },
+        "whatsapp_button_phone": {
+          "label": "Číslo WhatsApp",
+          "info": "Kód země a oblasti, pouze číslice. Např.: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "Úvodní zpráva",
+          "default": "Ahoj! Píšu z webu LJ Brinquedos a mám dotaz."
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "Otevřeno ve výchozím stavu"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "Nakupovat podle věku",
+      "settings": {
+        "title": {
+          "label": "Nadpis",
+          "default": "Nakupovat podle věku"
+        },
+        "columns_desktop": {
+          "label": "Sloupce"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "Věková skupina",
+          "settings": {
+            "image": {
+              "label": "Obrázek"
+            },
+            "title": {
+              "label": "Nadpis",
+              "default": "0-2 roky"
+            },
+            "link": {
+              "label": "Odkaz"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Nakupovat podle věku"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "Banner s dárky",
+      "settings": {
+        "heading": {
+          "label": "Nadpis",
+          "default": "Ještě jste nenašli dokonalý dárek?"
+        },
+        "text": {
+          "label": "Text",
+          "default": "<p>Filtrujte podle věku, zájmu nebo rozpočtu a najděte tu pravou hračku za pár minut.</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "Tlačítko",
+          "settings": {
+            "label": {
+              "label": "Text tlačítka",
+              "default": "Zobrazit tipy na dárky"
+            },
+            "link": {
+              "label": "Odkaz"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Banner s dárky"
+      }
+    },
+    "trust_bar": {
+      "name": "Lišta důvěry",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "Položka",
+          "settings": {
+            "icon": {
+              "label": "Ikona",
+              "options__1": {
+                "label": "Náklaďák"
+              },
+              "options__2": {
+                "label": "Zámek"
+              },
+              "options__3": {
+                "label": "Vrácení"
+              },
+              "options__4": {
+                "label": "Cenovka"
+              },
+              "options__5": {
+                "label": "Zaškrtnutí"
+              }
+            },
+            "text": {
+              "label": "Text",
+              "default": "100% bezpečný nákup"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Lišta důvěry"
+      }
+    },
+    "testimonials": {
+      "name": "Reference",
+      "settings": {
+        "title": {
+          "label": "Nadpis",
+          "default": "Oblíbené u rodičů"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "Recenze",
+          "settings": {
+            "rating": {
+              "label": "Hodnocení (1-5)"
+            },
+            "quote": {
+              "label": "Recenze",
+              "default": "<p>Dorazilo rychle a moje dítě si to zamilovalo! Velmi dobrá kvalita.</p>"
+            },
+            "author": {
+              "label": "Jméno zákazníka",
+              "default": "Spokojený zákazník"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Reference"
       }
     }
   }

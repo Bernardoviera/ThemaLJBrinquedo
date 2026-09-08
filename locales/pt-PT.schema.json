@@ -372,6 +372,22 @@
           "label": "Menu"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "Mostrar botão flutuante do WhatsApp"
+        },
+        "whatsapp_button_phone": {
+          "label": "Número do WhatsApp",
+          "info": "Com indicativo de país e área, só números. Ex.: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "Mensagem inicial",
+          "default": "Olá! Vim do site da LJ Brinquedos e queria tirar uma dúvida."
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "Aberto por predefinição"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "Compra por idade",
+      "settings": {
+        "title": {
+          "label": "Título",
+          "default": "Compra por idade"
+        },
+        "columns_desktop": {
+          "label": "Colunas"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "Faixa etária",
+          "settings": {
+            "image": {
+              "label": "Imagem"
+            },
+            "title": {
+              "label": "Título",
+              "default": "0-2 anos"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Compra por idade"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "Banner de presentes",
+      "settings": {
+        "heading": {
+          "label": "Título",
+          "default": "Ainda não encontrou o presente perfeito?"
+        },
+        "text": {
+          "label": "Texto",
+          "default": "<p>Filtre por idade, interesse ou orçamento e encontre o brinquedo ideal em minutos.</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "Botão",
+          "settings": {
+            "label": {
+              "label": "Texto do botão",
+              "default": "Ver ideias de presente"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Banner de presentes"
+      }
+    },
+    "trust_bar": {
+      "name": "Barra de confiança",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "Item",
+          "settings": {
+            "icon": {
+              "label": "Ícone",
+              "options__1": {
+                "label": "Camião"
+              },
+              "options__2": {
+                "label": "Cadeado"
+              },
+              "options__3": {
+                "label": "Devolução"
+              },
+              "options__4": {
+                "label": "Etiqueta de preço"
+              },
+              "options__5": {
+                "label": "Confirmação"
+              }
+            },
+            "text": {
+              "label": "Texto",
+              "default": "Compra 100% segura"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Barra de confiança"
+      }
+    },
+    "testimonials": {
+      "name": "Testemunhos",
+      "settings": {
+        "title": {
+          "label": "Título",
+          "default": "Quem comprou, aprovou"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "Testemunho",
+          "settings": {
+            "rating": {
+              "label": "Nota (1-5)"
+            },
+            "quote": {
+              "label": "Testemunho",
+              "default": "<p>Chegou rapidamente e o meu filho adorou! Muito boa qualidade.</p>"
+            },
+            "author": {
+              "label": "Nome do cliente",
+              "default": "Cliente satisfeito"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Testemunhos"
       }
     }
   }

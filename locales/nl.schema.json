@@ -372,6 +372,22 @@
           "label": "Menu"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "Zwevende WhatsApp-knop tonen"
+        },
+        "whatsapp_button_phone": {
+          "label": "WhatsApp-nummer",
+          "info": "Landcode + netnummer, alleen cijfers. Bijv.: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "Openingsbericht",
+          "default": "Hoi! Ik kom van de LJ Brinquedos-website en heb een vraag."
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "Standaard geopend"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "Shop op leeftijd",
+      "settings": {
+        "title": {
+          "label": "Titel",
+          "default": "Shop op leeftijd"
+        },
+        "columns_desktop": {
+          "label": "Kolommen"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "Leeftijdsgroep",
+          "settings": {
+            "image": {
+              "label": "Afbeelding"
+            },
+            "title": {
+              "label": "Titel",
+              "default": "0-2 jaar"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Shop op leeftijd"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "Cadeaubanner",
+      "settings": {
+        "heading": {
+          "label": "Titel",
+          "default": "Nog geen perfect cadeau gevonden?"
+        },
+        "text": {
+          "label": "Tekst",
+          "default": "<p>Filter op leeftijd, interesse of budget en vind binnen enkele minuten het juiste speelgoed.</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "Knop",
+          "settings": {
+            "label": {
+              "label": "Knoptekst",
+              "default": "Bekijk cadeau-ideeën"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Cadeaubanner"
+      }
+    },
+    "trust_bar": {
+      "name": "Vertrouwensbalk",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "Item",
+          "settings": {
+            "icon": {
+              "label": "Icoon",
+              "options__1": {
+                "label": "Vrachtwagen"
+              },
+              "options__2": {
+                "label": "Slot"
+              },
+              "options__3": {
+                "label": "Retour"
+              },
+              "options__4": {
+                "label": "Prijskaartje"
+              },
+              "options__5": {
+                "label": "Vinkje"
+              }
+            },
+            "text": {
+              "label": "Tekst",
+              "default": "100% veilig afrekenen"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Vertrouwensbalk"
+      }
+    },
+    "testimonials": {
+      "name": "Testimonials",
+      "settings": {
+        "title": {
+          "label": "Titel",
+          "default": "Geliefd bij ouders"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "Review",
+          "settings": {
+            "rating": {
+              "label": "Beoordeling (1-5)"
+            },
+            "quote": {
+              "label": "Review",
+              "default": "<p>Snel geleverd en mijn kind vond het geweldig! Erg goede kwaliteit.</p>"
+            },
+            "author": {
+              "label": "Klantnaam",
+              "default": "Tevreden klant"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Testimonials"
       }
     }
   }

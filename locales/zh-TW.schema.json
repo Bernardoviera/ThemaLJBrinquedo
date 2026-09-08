@@ -372,6 +372,22 @@
           "label": "選單"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "顯示浮動WhatsApp按鈕"
+        },
+        "whatsapp_button_phone": {
+          "label": "WhatsApp號碼",
+          "info": "國碼+區碼，僅限數字。例如：5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "開場訊息",
+          "default": "您好！我來自LJ Brinquedos網站，有一個問題想詢問。"
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "預設為開啟"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "依年齡選購",
+      "settings": {
+        "title": {
+          "label": "標題",
+          "default": "依年齡選購"
+        },
+        "columns_desktop": {
+          "label": "欄數"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "年齡層",
+          "settings": {
+            "image": {
+              "label": "圖片"
+            },
+            "title": {
+              "label": "標題",
+              "default": "0-2歲"
+            },
+            "link": {
+              "label": "連結"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "依年齡選購"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "禮物橫幅",
+      "settings": {
+        "heading": {
+          "label": "標題",
+          "default": "還沒找到完美的禮物嗎？"
+        },
+        "text": {
+          "label": "文字",
+          "default": "<p>依年齡、興趣或預算篩選，幾分鐘內找到合適的玩具。</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "按鈕",
+          "settings": {
+            "label": {
+              "label": "按鈕文字",
+              "default": "查看禮物靈感"
+            },
+            "link": {
+              "label": "連結"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "禮物橫幅"
+      }
+    },
+    "trust_bar": {
+      "name": "信任列",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "項目",
+          "settings": {
+            "icon": {
+              "label": "圖示",
+              "options__1": {
+                "label": "卡車"
+              },
+              "options__2": {
+                "label": "鎖"
+              },
+              "options__3": {
+                "label": "退貨"
+              },
+              "options__4": {
+                "label": "價格標籤"
+              },
+              "options__5": {
+                "label": "勾選"
+              }
+            },
+            "text": {
+              "label": "文字",
+              "default": "100%安全購物"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "信任列"
+      }
+    },
+    "testimonials": {
+      "name": "顧客評價",
+      "settings": {
+        "title": {
+          "label": "標題",
+          "default": "深受家長喜愛"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "評價",
+          "settings": {
+            "rating": {
+              "label": "評分 (1-5)"
+            },
+            "quote": {
+              "label": "評價",
+              "default": "<p>出貨很快，孩子很喜歡！品質非常好。</p>"
+            },
+            "author": {
+              "label": "顧客姓名",
+              "default": "滿意的顧客"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "顧客評價"
       }
     }
   }

@@ -372,6 +372,22 @@
           "label": "Valikko"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "Näytä kelluva WhatsApp-painike"
+        },
+        "whatsapp_button_phone": {
+          "label": "WhatsApp-numero",
+          "info": "Maatunnus + suuntanumero, vain numeroita. Esim.: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "Avausviesti",
+          "default": "Hei! Tulen LJ Brinquedos -sivustolta ja minulla on kysyttävää."
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "Avoinna oletuksena"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "Osta iän mukaan",
+      "settings": {
+        "title": {
+          "label": "Otsikko",
+          "default": "Osta iän mukaan"
+        },
+        "columns_desktop": {
+          "label": "Sarakkeet"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "Ikäryhmä",
+          "settings": {
+            "image": {
+              "label": "Kuva"
+            },
+            "title": {
+              "label": "Otsikko",
+              "default": "0-2 vuotta"
+            },
+            "link": {
+              "label": "Linkki"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Osta iän mukaan"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "Lahjabanneri",
+      "settings": {
+        "heading": {
+          "label": "Otsikko",
+          "default": "Etkö vielä löytänyt täydellistä lahjaa?"
+        },
+        "text": {
+          "label": "Teksti",
+          "default": "<p>Suodata iän, kiinnostuksen tai budjetin mukaan ja löydä oikea lelu minuuteissa.</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "Painike",
+          "settings": {
+            "label": {
+              "label": "Painikkeen teksti",
+              "default": "Katso lahjaideoita"
+            },
+            "link": {
+              "label": "Linkki"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Lahjabanneri"
+      }
+    },
+    "trust_bar": {
+      "name": "Luottamuspalkki",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "Kohde",
+          "settings": {
+            "icon": {
+              "label": "Kuvake",
+              "options__1": {
+                "label": "Kuorma-auto"
+              },
+              "options__2": {
+                "label": "Lukko"
+              },
+              "options__3": {
+                "label": "Palautus"
+              },
+              "options__4": {
+                "label": "Hintalappu"
+              },
+              "options__5": {
+                "label": "Valintamerkki"
+              }
+            },
+            "text": {
+              "label": "Teksti",
+              "default": "100 % turvallinen maksu"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Luottamuspalkki"
+      }
+    },
+    "testimonials": {
+      "name": "Asiakaskokemukset",
+      "settings": {
+        "title": {
+          "label": "Otsikko",
+          "default": "Vanhempien suosikki"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "Arvostelu",
+          "settings": {
+            "rating": {
+              "label": "Arvosana (1-5)"
+            },
+            "quote": {
+              "label": "Arvostelu",
+              "default": "<p>Saapui nopeasti ja lapseni rakasti sitä! Erittäin hyvä laatu.</p>"
+            },
+            "author": {
+              "label": "Asiakkaan nimi",
+              "default": "Tyytyväinen asiakas"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Asiakaskokemukset"
       }
     }
   }

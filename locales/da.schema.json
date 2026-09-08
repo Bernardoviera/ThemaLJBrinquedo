@@ -372,6 +372,22 @@
           "label": "Menu"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "Vis flydende WhatsApp-knap"
+        },
+        "whatsapp_button_phone": {
+          "label": "WhatsApp-nummer",
+          "info": "Landekode + områdenummer, kun tal. F.eks.: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "Åbningsbesked",
+          "default": "Hej! Jeg kommer fra LJ Brinquedos' hjemmeside og har et spørgsmål."
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "Åben som standard"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "Shop efter alder",
+      "settings": {
+        "title": {
+          "label": "Overskrift",
+          "default": "Shop efter alder"
+        },
+        "columns_desktop": {
+          "label": "Kolonner"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "Aldersgruppe",
+          "settings": {
+            "image": {
+              "label": "Billede"
+            },
+            "title": {
+              "label": "Overskrift",
+              "default": "0-2 år"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Shop efter alder"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "Gavebanner",
+      "settings": {
+        "heading": {
+          "label": "Overskrift",
+          "default": "Har du ikke fundet den perfekte gave endnu?"
+        },
+        "text": {
+          "label": "Tekst",
+          "default": "<p>Filtrer efter alder, interesse eller budget, og find det rigtige legetøj på få minutter.</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "Knap",
+          "settings": {
+            "label": {
+              "label": "Knaptekst",
+              "default": "Se gaveidéer"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Gavebanner"
+      }
+    },
+    "trust_bar": {
+      "name": "Tillidslinje",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "Element",
+          "settings": {
+            "icon": {
+              "label": "Ikon",
+              "options__1": {
+                "label": "Lastbil"
+              },
+              "options__2": {
+                "label": "Lås"
+              },
+              "options__3": {
+                "label": "Retur"
+              },
+              "options__4": {
+                "label": "Prisskilt"
+              },
+              "options__5": {
+                "label": "Flueben"
+              }
+            },
+            "text": {
+              "label": "Tekst",
+              "default": "100 % sikker betaling"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Tillidslinje"
+      }
+    },
+    "testimonials": {
+      "name": "Anmeldelser",
+      "settings": {
+        "title": {
+          "label": "Overskrift",
+          "default": "Elsket af forældre"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "Anmeldelse",
+          "settings": {
+            "rating": {
+              "label": "Vurdering (1-5)"
+            },
+            "quote": {
+              "label": "Anmeldelse",
+              "default": "<p>Kom hurtigt frem, og mit barn elskede det! Rigtig god kvalitet.</p>"
+            },
+            "author": {
+              "label": "Kundenavn",
+              "default": "Tilfreds kunde"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Anmeldelser"
       }
     }
   }

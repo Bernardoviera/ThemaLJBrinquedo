@@ -372,6 +372,22 @@
           "label": "メニュー"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "WhatsAppのフローティングボタンを表示"
+        },
+        "whatsapp_button_phone": {
+          "label": "WhatsApp番号",
+          "info": "国番号+市外局番、数字のみ。例: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "最初のメッセージ",
+          "default": "こんにちは！LJ Brinquedosのサイトから来ました。質問があります。"
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "デフォルトで開く"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "年齢別に探す",
+      "settings": {
+        "title": {
+          "label": "見出し",
+          "default": "年齢別に探す"
+        },
+        "columns_desktop": {
+          "label": "列数"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "年齢層",
+          "settings": {
+            "image": {
+              "label": "画像"
+            },
+            "title": {
+              "label": "見出し",
+              "default": "0〜2歳"
+            },
+            "link": {
+              "label": "リンク"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "年齢別に探す"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "ギフトバナー",
+      "settings": {
+        "heading": {
+          "label": "見出し",
+          "default": "まだ最適な贈り物が見つかりませんか?"
+        },
+        "text": {
+          "label": "テキスト",
+          "default": "<p>年齢、興味、予算で絞り込んで、数分でぴったりのおもちゃを見つけましょう。</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "ボタン",
+          "settings": {
+            "label": {
+              "label": "ボタンのテキスト",
+              "default": "ギフトのアイデアを見る"
+            },
+            "link": {
+              "label": "リンク"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "ギフトバナー"
+      }
+    },
+    "trust_bar": {
+      "name": "安心バー",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "項目",
+          "settings": {
+            "icon": {
+              "label": "アイコン",
+              "options__1": {
+                "label": "トラック"
+              },
+              "options__2": {
+                "label": "南京錠"
+              },
+              "options__3": {
+                "label": "返品"
+              },
+              "options__4": {
+                "label": "値札"
+              },
+              "options__5": {
+                "label": "チェックマーク"
+              }
+            },
+            "text": {
+              "label": "テキスト",
+              "default": "100%安全なお買い物"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "安心バー"
+      }
+    },
+    "testimonials": {
+      "name": "お客様の声",
+      "settings": {
+        "title": {
+          "label": "見出し",
+          "default": "保護者に大人気"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "レビュー",
+          "settings": {
+            "rating": {
+              "label": "評価 (1-5)"
+            },
+            "quote": {
+              "label": "レビュー",
+              "default": "<p>早く届いて子どもも大喜び！品質もとても良いです。</p>"
+            },
+            "author": {
+              "label": "お客様名",
+              "default": "満足したお客様"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "お客様の声"
       }
     }
   }

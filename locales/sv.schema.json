@@ -372,6 +372,22 @@
           "label": "Meny"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "Visa flytande WhatsApp-knapp"
+        },
+        "whatsapp_button_phone": {
+          "label": "WhatsApp-nummer",
+          "info": "Landskod + riktnummer, endast siffror. T.ex.: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "Inledande meddelande",
+          "default": "Hej! Jag kommer från LJ Brinquedos webbplats och har en fråga."
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "Öppen som standard"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "Handla efter ålder",
+      "settings": {
+        "title": {
+          "label": "Rubrik",
+          "default": "Handla efter ålder"
+        },
+        "columns_desktop": {
+          "label": "Kolumner"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "Åldersgrupp",
+          "settings": {
+            "image": {
+              "label": "Bild"
+            },
+            "title": {
+              "label": "Rubrik",
+              "default": "0-2 år"
+            },
+            "link": {
+              "label": "Länk"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Handla efter ålder"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "Presentbanner",
+      "settings": {
+        "heading": {
+          "label": "Rubrik",
+          "default": "Har du inte hittat den perfekta presenten än?"
+        },
+        "text": {
+          "label": "Text",
+          "default": "<p>Filtrera efter ålder, intresse eller budget och hitta rätt leksak på några minuter.</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "Knapp",
+          "settings": {
+            "label": {
+              "label": "Knapptext",
+              "default": "Se presenttips"
+            },
+            "link": {
+              "label": "Länk"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Presentbanner"
+      }
+    },
+    "trust_bar": {
+      "name": "Förtroendefält",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "Objekt",
+          "settings": {
+            "icon": {
+              "label": "Ikon",
+              "options__1": {
+                "label": "Lastbil"
+              },
+              "options__2": {
+                "label": "Lås"
+              },
+              "options__3": {
+                "label": "Retur"
+              },
+              "options__4": {
+                "label": "Prislapp"
+              },
+              "options__5": {
+                "label": "Bock"
+              }
+            },
+            "text": {
+              "label": "Text",
+              "default": "100 % säker betalning"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Förtroendefält"
+      }
+    },
+    "testimonials": {
+      "name": "Kundomdömen",
+      "settings": {
+        "title": {
+          "label": "Rubrik",
+          "default": "Älskad av föräldrar"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "Omdöme",
+          "settings": {
+            "rating": {
+              "label": "Betyg (1-5)"
+            },
+            "quote": {
+              "label": "Omdöme",
+              "default": "<p>Kom snabbt och mitt barn älskade det! Mycket bra kvalitet.</p>"
+            },
+            "author": {
+              "label": "Kundnamn",
+              "default": "Nöjd kund"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Kundomdömen"
       }
     }
   }

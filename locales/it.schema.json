@@ -372,6 +372,22 @@
           "label": "Menu"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "Mostra pulsante WhatsApp fluttuante"
+        },
+        "whatsapp_button_phone": {
+          "label": "Numero WhatsApp",
+          "info": "Prefisso internazionale e locale, solo numeri. Es.: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "Messaggio iniziale",
+          "default": "Ciao! Vengo dal sito di LJ Brinquedos e ho una domanda."
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "Aperto per impostazione predefinita"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "Acquista per età",
+      "settings": {
+        "title": {
+          "label": "Titolo",
+          "default": "Acquista per età"
+        },
+        "columns_desktop": {
+          "label": "Colonne"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "Fascia d'età",
+          "settings": {
+            "image": {
+              "label": "Immagine"
+            },
+            "title": {
+              "label": "Titolo",
+              "default": "0-2 anni"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Acquista per età"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "Banner regali",
+      "settings": {
+        "heading": {
+          "label": "Titolo",
+          "default": "Non hai ancora trovato il regalo perfetto?"
+        },
+        "text": {
+          "label": "Testo",
+          "default": "<p>Filtra per età, interesse o budget e trova il giocattolo giusto in pochi minuti.</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "Pulsante",
+          "settings": {
+            "label": {
+              "label": "Testo del pulsante",
+              "default": "Vedi idee regalo"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Banner regali"
+      }
+    },
+    "trust_bar": {
+      "name": "Barra di fiducia",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "Elemento",
+          "settings": {
+            "icon": {
+              "label": "Icona",
+              "options__1": {
+                "label": "Camion"
+              },
+              "options__2": {
+                "label": "Lucchetto"
+              },
+              "options__3": {
+                "label": "Reso"
+              },
+              "options__4": {
+                "label": "Cartellino prezzo"
+              },
+              "options__5": {
+                "label": "Spunta"
+              }
+            },
+            "text": {
+              "label": "Testo",
+              "default": "Acquisto sicuro al 100%"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Barra di fiducia"
+      }
+    },
+    "testimonials": {
+      "name": "Testimonianze",
+      "settings": {
+        "title": {
+          "label": "Titolo",
+          "default": "Amato dai genitori"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "Recensione",
+          "settings": {
+            "rating": {
+              "label": "Valutazione (1-5)"
+            },
+            "quote": {
+              "label": "Recensione",
+              "default": "<p>Arrivato velocemente e a mio figlio è piaciuto molto! Ottima qualità.</p>"
+            },
+            "author": {
+              "label": "Nome cliente",
+              "default": "Cliente soddisfatto"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Testimonianze"
       }
     }
   }

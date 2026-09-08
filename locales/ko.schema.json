@@ -372,6 +372,22 @@
           "label": "메뉴"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "플로팅 WhatsApp 버튼 표시"
+        },
+        "whatsapp_button_phone": {
+          "label": "WhatsApp 번호",
+          "info": "국가 번호 + 지역 번호, 숫자만 입력. 예: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "시작 메시지",
+          "default": "안녕하세요! LJ Brinquedos 웹사이트에서 왔고 질문이 있습니다."
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "기본으로 열기"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "연령별 쇼핑",
+      "settings": {
+        "title": {
+          "label": "제목",
+          "default": "연령별 쇼핑"
+        },
+        "columns_desktop": {
+          "label": "열 수"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "연령대",
+          "settings": {
+            "image": {
+              "label": "이미지"
+            },
+            "title": {
+              "label": "제목",
+              "default": "0-2세"
+            },
+            "link": {
+              "label": "링크"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "연령별 쇼핑"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "선물 배너",
+      "settings": {
+        "heading": {
+          "label": "제목",
+          "default": "아직 완벽한 선물을 못 찾으셨나요?"
+        },
+        "text": {
+          "label": "텍스트",
+          "default": "<p>연령, 관심사, 예산으로 필터링해서 몇 분 만에 딱 맞는 장난감을 찾아보세요.</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "버튼",
+          "settings": {
+            "label": {
+              "label": "버튼 텍스트",
+              "default": "선물 아이디어 보기"
+            },
+            "link": {
+              "label": "링크"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "선물 배너"
+      }
+    },
+    "trust_bar": {
+      "name": "신뢰 배너",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "항목",
+          "settings": {
+            "icon": {
+              "label": "아이콘",
+              "options__1": {
+                "label": "트럭"
+              },
+              "options__2": {
+                "label": "자물쇠"
+              },
+              "options__3": {
+                "label": "반품"
+              },
+              "options__4": {
+                "label": "가격표"
+              },
+              "options__5": {
+                "label": "체크 표시"
+              }
+            },
+            "text": {
+              "label": "텍스트",
+              "default": "100% 안전한 결제"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "신뢰 배너"
+      }
+    },
+    "testimonials": {
+      "name": "고객 후기",
+      "settings": {
+        "title": {
+          "label": "제목",
+          "default": "부모님들이 사랑하는"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "후기",
+          "settings": {
+            "rating": {
+              "label": "평점 (1-5)"
+            },
+            "quote": {
+              "label": "후기",
+              "default": "<p>빨리 도착했고 아이가 정말 좋아했어요! 품질이 아주 좋습니다.</p>"
+            },
+            "author": {
+              "label": "고객 이름",
+              "default": "만족한 고객"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "고객 후기"
       }
     }
   }

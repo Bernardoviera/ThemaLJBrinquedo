@@ -372,6 +372,22 @@
           "label": "菜单"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "显示悬浮WhatsApp按钮"
+        },
+        "whatsapp_button_phone": {
+          "label": "WhatsApp号码",
+          "info": "国家区号+地区区号，仅数字。例如：5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "开场消息",
+          "default": "您好！我来自LJ Brinquedos网站，有一个问题想咨询。"
+        }
+      }
     }
   },
   "sections": {
@@ -3395,6 +3411,134 @@
         "open_by_default": {
           "label": "默认展开"
         }
+      }
+    },
+    "shop_by_age": {
+      "name": "按年龄选购",
+      "settings": {
+        "title": {
+          "label": "标题",
+          "default": "按年龄选购"
+        },
+        "columns_desktop": {
+          "label": "列数"
+        }
+      },
+      "blocks": {
+        "age_group": {
+          "name": "年龄段",
+          "settings": {
+            "image": {
+              "label": "图片"
+            },
+            "title": {
+              "label": "标题",
+              "default": "0-2岁"
+            },
+            "link": {
+              "label": "链接"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "按年龄选购"
+      }
+    },
+    "gift_finder_banner": {
+      "name": "礼物横幅",
+      "settings": {
+        "heading": {
+          "label": "标题",
+          "default": "还没找到完美的礼物？"
+        },
+        "text": {
+          "label": "文本",
+          "default": "<p>按年龄、兴趣或预算筛选，几分钟内找到合适的玩具。</p>"
+        }
+      },
+      "blocks": {
+        "cta": {
+          "name": "按钮",
+          "settings": {
+            "label": {
+              "label": "按钮文字",
+              "default": "查看礼物创意"
+            },
+            "link": {
+              "label": "链接"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "礼物横幅"
+      }
+    },
+    "trust_bar": {
+      "name": "信任栏",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "项目",
+          "settings": {
+            "icon": {
+              "label": "图标",
+              "options__1": {
+                "label": "卡车"
+              },
+              "options__2": {
+                "label": "锁"
+              },
+              "options__3": {
+                "label": "退货"
+              },
+              "options__4": {
+                "label": "价格标签"
+              },
+              "options__5": {
+                "label": "对勾"
+              }
+            },
+            "text": {
+              "label": "文本",
+              "default": "100%安全购物"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "信任栏"
+      }
+    },
+    "testimonials": {
+      "name": "客户评价",
+      "settings": {
+        "title": {
+          "label": "标题",
+          "default": "深受家长喜爱"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "评价",
+          "settings": {
+            "rating": {
+              "label": "评分 (1-5)"
+            },
+            "quote": {
+              "label": "评价",
+              "default": "<p>发货很快，孩子很喜欢！质量非常好。</p>"
+            },
+            "author": {
+              "label": "客户姓名",
+              "default": "满意的客户"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "客户评价"
       }
     }
   }
