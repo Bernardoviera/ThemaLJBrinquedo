@@ -2967,6 +2967,10 @@
             },
             "header_colors": {
               "content": "Renkler"
+            },
+            "image_mobile": {
+              "label": "Mobil görsel",
+              "info": "İsteğe bağlı. Ayarlanırsa, küçük ekranlarda (749px'e kadar) yalnızca bu slayt için yukarıdaki görselin yerini alır."
             }
           }
         }

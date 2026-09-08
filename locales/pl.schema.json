@@ -2967,6 +2967,10 @@
             },
             "header_colors": {
               "content": "Kolory"
+            },
+            "image_mobile": {
+              "label": "Obraz mobilny",
+              "info": "Opcjonalne. Jeśli ustawiony, zastępuje powyższy obraz na małych ekranach (do 749px) tylko w tym slajdzie."
             }
           }
         }

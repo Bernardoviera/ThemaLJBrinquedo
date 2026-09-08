@@ -2967,6 +2967,10 @@
             },
             "header_colors": {
               "content": "Couleurs"
+            },
+            "image_mobile": {
+              "label": "Image mobile",
+              "info": "Facultatif. Si définie, remplace l'image ci-dessus sur les petits écrans (jusqu'à 749px), pour cette diapositive uniquement."
             }
           }
         }

@@ -2967,6 +2967,10 @@
             },
             "header_colors": {
               "content": "Colori"
+            },
+            "image_mobile": {
+              "label": "Immagine per dispositivi mobili",
+              "info": "Facoltativo. Se impostata, sostituisce l'immagine sopra sugli schermi piccoli (fino a 749px) solo per questa slide."
             }
           }
         }

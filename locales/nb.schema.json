@@ -2967,6 +2967,10 @@
             },
             "header_colors": {
               "content": "Farger"
+            },
+            "image_mobile": {
+              "label": "Mobilbilde",
+              "info": "Valgfritt. Hvis angitt, erstatter det bildet over på små skjermer (opptil 749px) kun for dette lysbildet."
             }
           }
         }

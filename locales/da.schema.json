@@ -2967,6 +2967,10 @@
             },
             "header_colors": {
               "content": "Farver"
+            },
+            "image_mobile": {
+              "label": "Mobilbillede",
+              "info": "Valgfrit. Hvis angivet, erstatter det billedet ovenfor på små skærme (op til 749px) kun for dette slide."
             }
           }
         }

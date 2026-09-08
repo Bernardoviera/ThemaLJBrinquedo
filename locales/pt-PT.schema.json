@@ -2967,6 +2967,10 @@
             },
             "header_colors": {
               "content": "Cores"
+            },
+            "image_mobile": {
+              "label": "Imagem para telemóvel",
+              "info": "Opcional. Se definida, substitui a imagem acima em ecrãs pequenos (até 749px) apenas neste slide."
             }
           }
         }

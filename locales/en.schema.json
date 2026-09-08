@@ -3185,6 +3185,10 @@
               "options__3": {
                 "label": "Right"
               }
+            },
+            "image_mobile": {
+              "label": "Mobile image",
+              "info": "Optional. When set, replaces the image above on small screens (up to 749px) for this slide only."
             }
           }
         }

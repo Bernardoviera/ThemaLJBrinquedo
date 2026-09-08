@@ -2967,6 +2967,10 @@
             },
             "header_colors": {
               "content": "Barvy"
+            },
+            "image_mobile": {
+              "label": "Mobilní obrázek",
+              "info": "Volitelné. Pokud je nastaven, nahradí výše uvedený obrázek na malých obrazovkách (do 749px) pouze pro tento snímek."
             }
           }
         }

@@ -2967,6 +2967,10 @@
             },
             "header_colors": {
               "content": "Färger"
+            },
+            "image_mobile": {
+              "label": "Mobilbild",
+              "info": "Valfritt. Om den anges ersätter den bilden ovan på små skärmar (upp till 749px) endast för denna bild."
             }
           }
         }

@@ -2967,6 +2967,10 @@
             },
             "header_colors": {
               "content": "Värit"
+            },
+            "image_mobile": {
+              "label": "Mobiilikuva",
+              "info": "Valinnainen. Jos asetettu, korvaa yllä olevan kuvan pienillä näytöillä (enintään 749px) vain tässä diassa."
             }
           }
         }

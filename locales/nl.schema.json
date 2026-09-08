@@ -2967,6 +2967,10 @@
             },
             "header_colors": {
               "content": "Kleuren"
+            },
+            "image_mobile": {
+              "label": "Mobiele afbeelding",
+              "info": "Optioneel. Indien ingesteld, vervangt dit de bovenstaande afbeelding op kleine schermen (tot 749px) alleen voor deze slide."
             }
           }
         }
