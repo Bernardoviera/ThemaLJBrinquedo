@@ -372,6 +372,22 @@
           "label": "Vertical space"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "Show floating WhatsApp button"
+        },
+        "whatsapp_button_phone": {
+          "label": "WhatsApp number",
+          "info": "Country + area code, digits only. E.g. 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "Opening message",
+          "default": "Hi! I came from the LJ Brinquedos website and had a question."
+        }
+      }
     }
   },
   "sections": {
@@ -3457,6 +3473,72 @@
       },
       "presets": {
         "name": "Gift finder banner"
+      }
+    },
+    "trust_bar": {
+      "name": "Trust bar",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "Item",
+          "settings": {
+            "icon": {
+              "label": "Icon",
+              "options__1": {
+                "label": "Truck"
+              },
+              "options__2": {
+                "label": "Lock"
+              },
+              "options__3": {
+                "label": "Return"
+              },
+              "options__4": {
+                "label": "Price tag"
+              },
+              "options__5": {
+                "label": "Checkmark"
+              }
+            },
+            "text": {
+              "label": "Text",
+              "default": "100% secure checkout"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Trust bar"
+      }
+    },
+    "testimonials": {
+      "name": "Testimonials",
+      "settings": {
+        "title": {
+          "label": "Heading",
+          "default": "Loved by parents"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "Review",
+          "settings": {
+            "rating": {
+              "label": "Rating (1-5)"
+            },
+            "quote": {
+              "label": "Review",
+              "default": "<p>Arrived fast and my kid loved it! Great quality.</p>"
+            },
+            "author": {
+              "label": "Customer name",
+              "default": "Happy customer"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Testimonials"
       }
     }
   }

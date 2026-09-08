@@ -1360,6 +1360,29 @@
     ]
   },
   {
+    "name": "t:settings_schema.whatsapp.name",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "whatsapp_button_enable",
+        "label": "t:settings_schema.whatsapp.settings.whatsapp_button_enable.label",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "whatsapp_button_phone",
+        "label": "t:settings_schema.whatsapp.settings.whatsapp_button_phone.label",
+        "info": "t:settings_schema.whatsapp.settings.whatsapp_button_phone.info"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp_button_message",
+        "label": "t:settings_schema.whatsapp.settings.whatsapp_button_message.label",
+        "default": "t:settings_schema.whatsapp.settings.whatsapp_button_message.default"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.search_input.name",
     "settings": [
       {

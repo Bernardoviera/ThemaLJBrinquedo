@@ -43,43 +43,34 @@
         "show_text_below": false
       }
     },
+    "trust_bar": {
+      "type": "trust-bar",
+      "blocks": {
+        "item-1": { "type": "item", "settings": { "icon": "truck", "text": "Frete para todo o Brasil" } },
+        "item-2": { "type": "item", "settings": { "icon": "lock", "text": "Compra 100% segura" } },
+        "item-3": { "type": "item", "settings": { "icon": "return", "text": "Troca fácil em 30 dias" } },
+        "item-4": { "type": "item", "settings": { "icon": "price_tag", "text": "Parcelamento em até 12x" } }
+      },
+      "block_order": ["item-1", "item-2", "item-3", "item-4"],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "shop_by_age": {
       "type": "shop-by-age",
       "blocks": {
-        "age-0-2": {
-          "type": "age_group",
-          "settings": {
-            "title": "0-2 anos",
-            "link": "shopify://collections/all"
-          }
-        },
-        "age-3-5": {
-          "type": "age_group",
-          "settings": {
-            "title": "3-5 anos",
-            "link": "shopify://collections/all"
-          }
-        },
-        "age-6-8": {
-          "type": "age_group",
-          "settings": {
-            "title": "6-8 anos",
-            "link": "shopify://collections/all"
-          }
-        },
-        "age-9-mais": {
-          "type": "age_group",
-          "settings": {
-            "title": "9+ anos",
-            "link": "shopify://collections/all"
-          }
-        }
+        "age-0-2": { "type": "age_group", "settings": { "title": "0-2 anos", "link": "shopify://collections/all" } },
+        "age-3-5": { "type": "age_group", "settings": { "title": "3-5 anos", "link": "shopify://collections/all" } },
+        "age-6-8": { "type": "age_group", "settings": { "title": "6-8 anos", "link": "shopify://collections/all" } },
+        "age-9-mais": { "type": "age_group", "settings": { "title": "9+ anos", "link": "shopify://collections/all" } }
       },
       "block_order": ["age-0-2", "age-3-5", "age-6-8", "age-9-mais"],
       "settings": {
         "title": "Compre por idade",
         "heading_size": "h1",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "columns_desktop": 4,
         "padding_top": 40,
         "padding_bottom": 40
@@ -96,7 +87,7 @@
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -113,88 +104,141 @@
         "padding_bottom": 36
       }
     },
+    "brand_story": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": { "heading": "Escolhido com carinho, brinquedo por brinquedo", "heading_size": "h1" }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Testamos segurança, qualidade e diversão antes de qualquer produto entrar no catálogo. É assim que viramos a loja de confiança de milhares de famílias no Brasil.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": ["heading", "text"],
+      "settings": {
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
     "gift_finder_banner": {
       "type": "gift-finder-banner",
       "blocks": {
-        "cta-1": {
-          "type": "cta",
-          "settings": {
-            "label": "Para meninos",
-            "link": "shopify://collections/all"
-          }
-        },
-        "cta-2": {
-          "type": "cta",
-          "settings": {
-            "label": "Para meninas",
-            "link": "shopify://collections/all"
-          }
-        },
-        "cta-3": {
-          "type": "cta",
-          "settings": {
-            "label": "Presentes até R$ 50",
-            "link": "shopify://collections/all"
-          }
-        }
+        "cta-1": { "type": "cta", "settings": { "label": "Para meninos", "link": "shopify://collections/all" } },
+        "cta-2": { "type": "cta", "settings": { "label": "Para meninas", "link": "shopify://collections/all" } },
+        "cta-3": { "type": "cta", "settings": { "label": "Presentes até R$ 50", "link": "shopify://collections/all" } }
       },
       "block_order": ["cta-1", "cta-2", "cta-3"],
       "settings": {
         "heading": "Ainda não achou o presente perfeito?",
         "heading_size": "h1",
         "text": "<p>Filtre por idade, interesse ou orçamento e encontre o brinquedo ideal em minutos.</p>",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-5",
         "padding_top": 52,
         "padding_bottom": 52
       }
     },
-    "trust_badges": {
-      "type": "multicolumn",
+    "testimonials": {
+      "type": "testimonials",
       "blocks": {
-        "badge-1": {
-          "type": "column",
+        "review-1": {
+          "type": "review",
           "settings": {
-            "title": "Compra 100% segura",
-            "text": "<p>Pagamento protegido em todas as etapas.</p>",
-            "link_label": "",
-            "link": ""
+            "rating": 5,
+            "quote": "<p>Chegou rapidinho e meu filho amou! Embalagem caprichada e produto de qualidade.</p>",
+            "author": "Camila R."
           }
         },
-        "badge-2": {
-          "type": "column",
+        "review-2": {
+          "type": "review",
           "settings": {
-            "title": "Frete para todo o Brasil",
-            "text": "<p>Enviamos para todos os estados com rastreio.</p>",
-            "link_label": "",
-            "link": ""
+            "rating": 5,
+            "quote": "<p>Atendimento excelente pelo WhatsApp, tiraram todas as minhas dúvidas antes da compra.</p>",
+            "author": "Felipe A."
           }
         },
-        "badge-3": {
-          "type": "column",
+        "review-3": {
+          "type": "review",
           "settings": {
-            "title": "Trocas fáceis",
-            "text": "<p>Até 30 dias para trocar ou devolver.</p>",
-            "link_label": "",
-            "link": ""
+            "rating": 4,
+            "quote": "<p>Ótimo custo-benefício. Já é a segunda vez que compro e recomendo.</p>",
+            "author": "Juliana M."
           }
         }
       },
-      "block_order": ["badge-1", "badge-2", "badge-3"],
+      "block_order": ["review-1", "review-2", "review-3"],
       "settings": {
-        "title": "",
+        "title": "Quem comprou, aprovou",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "color_scheme": "scheme-2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Qual o prazo de entrega?",
+            "icon": "truck",
+            "row_content": "<p>O prazo varia por região, geralmente entre 5 e 15 dias úteis. Você recebe o código de rastreio assim que o pedido é enviado.</p>"
+          }
+        },
+        "row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Os brinquedos são seguros?",
+            "icon": "check_mark",
+            "row_content": "<p>Todos os produtos seguem as normas de segurança do INMETRO e indicam a faixa etária recomendada na embalagem.</p>"
+          }
+        },
+        "row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Posso trocar se não gostar?",
+            "icon": "return",
+            "row_content": "<p>Sim! Você tem até 30 dias corridos após o recebimento para solicitar troca ou devolução.</p>"
+          }
+        },
+        "row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quais formas de pagamento vocês aceitam?",
+            "icon": "price_tag",
+            "row_content": "<p>Cartão de crédito em até 12x, Pix e boleto bancário.</p>"
+          }
+        }
+      },
+      "block_order": ["row-1", "row-2", "row-3", "row-4"],
+      "settings": {
+        "caption": "",
+        "heading": "Perguntas frequentes",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 44,
+        "padding_bottom": 44
       }
     },
     "newsletter": {
@@ -202,21 +246,13 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "settings": {
-            "heading": "Receba novidades e promoções",
-            "heading_size": "h1"
-          }
+          "settings": { "heading": "Receba novidades e promoções", "heading_size": "h1" }
         },
         "paragraph": {
           "type": "paragraph",
-          "settings": {
-            "text": "<p>Cadastre seu e-mail e seja o primeiro a saber de lançamentos e ofertas.</p>"
-          }
+          "settings": { "text": "<p>Cadastre seu e-mail e seja o primeiro a saber de lançamentos e ofertas.</p>" }
         },
-        "email_form": {
-          "type": "email_form",
-          "settings": {}
-        }
+        "email_form": { "type": "email_form", "settings": {} }
       },
       "block_order": ["heading", "paragraph", "email_form"],
       "settings": {
@@ -229,10 +265,13 @@
   },
   "order": [
     "image_banner",
+    "trust_bar",
     "shop_by_age",
     "featured_collection",
+    "brand_story",
     "gift_finder_banner",
-    "trust_badges",
+    "testimonials",
+    "faq",
     "newsletter"
   ]
 }

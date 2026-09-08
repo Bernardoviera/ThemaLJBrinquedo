@@ -372,6 +372,22 @@
           "label": "Menu"
         }
       }
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "settings": {
+        "whatsapp_button_enable": {
+          "label": "Mostrar botão flutuante do WhatsApp"
+        },
+        "whatsapp_button_phone": {
+          "label": "Número do WhatsApp",
+          "info": "Com DDI e DDD, só números. Ex.: 5511999999999"
+        },
+        "whatsapp_button_message": {
+          "label": "Mensagem inicial",
+          "default": "Olá! Vim do site da LJ Brinquedos e queria tirar uma dúvida."
+        }
+      }
     }
   },
   "sections": {
@@ -3457,6 +3473,72 @@
       },
       "presets": {
         "name": "Banner de presentes"
+      }
+    },
+    "trust_bar": {
+      "name": "Barra de confiança",
+      "settings": {},
+      "blocks": {
+        "item": {
+          "name": "Item",
+          "settings": {
+            "icon": {
+              "label": "Ícone",
+              "options__1": {
+                "label": "Caminhão"
+              },
+              "options__2": {
+                "label": "Cadeado"
+              },
+              "options__3": {
+                "label": "Devolução"
+              },
+              "options__4": {
+                "label": "Etiqueta de preço"
+              },
+              "options__5": {
+                "label": "Confirmação"
+              }
+            },
+            "text": {
+              "label": "Texto",
+              "default": "Compra 100% segura"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Barra de confiança"
+      }
+    },
+    "testimonials": {
+      "name": "Depoimentos",
+      "settings": {
+        "title": {
+          "label": "Título",
+          "default": "Quem comprou, aprovou"
+        }
+      },
+      "blocks": {
+        "review": {
+          "name": "Depoimento",
+          "settings": {
+            "rating": {
+              "label": "Nota (1-5)"
+            },
+            "quote": {
+              "label": "Depoimento",
+              "default": "<p>Chegou rapidinho e meu filho amou! Qualidade muito boa.</p>"
+            },
+            "author": {
+              "label": "Nome do cliente",
+              "default": "Cliente satisfeito"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Depoimentos"
       }
     }
   }
