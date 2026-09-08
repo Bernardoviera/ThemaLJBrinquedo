@@ -327,6 +327,13 @@
         "favicon": {
           "label": "Favicon",
           "info": "Exibido em 32 x 32px"
+        },
+        "logo_mobile": {
+          "label": "Logo para dispositivos móveis",
+          "info": "Opcional. Se definida, substitui a logo acima em telas pequenas (até 749px). Deixe em branco para usar a mesma logo em todos os tamanhos."
+        },
+        "logo_mobile_width": {
+          "label": "Largura da logo mobile"
         }
       }
     },
@@ -1133,6 +1140,10 @@
         },
         "content": {
           "content": "Conteúdo"
+        },
+        "image_mobile": {
+          "label": "Imagem para dispositivos móveis",
+          "info": "Opcional. Se definida, substitui a imagem acima em telas pequenas (até 749px), no lugar da imagem de desktop. Não afeta o layout com duas imagens lado a lado."
         }
       },
       "blocks": {

@@ -327,6 +327,13 @@
         "favicon": {
           "label": "Favicon",
           "info": "Weergegeven op 32 x 32 px"
+        },
+        "logo_mobile": {
+          "label": "Mobiel logo",
+          "info": "Optioneel. Indien ingesteld, vervangt dit het bovenstaande logo op kleine schermen (tot 749px). Laat leeg om overal hetzelfde logo te gebruiken."
+        },
+        "logo_mobile_width": {
+          "label": "Breedte van mobiel logo"
         }
       }
     },
@@ -1133,6 +1140,10 @@
         },
         "content": {
           "content": "Content"
+        },
+        "image_mobile": {
+          "label": "Mobiele afbeelding",
+          "info": "Optioneel. Indien ingesteld, vervangt dit de bovenstaande afbeelding op kleine schermen (tot 749px) in plaats van de desktopafbeelding. Heeft geen invloed op de lay-out met twee afbeeldingen naast elkaar."
         }
       },
       "blocks": {

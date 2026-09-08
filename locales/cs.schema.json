@@ -327,6 +327,13 @@
         "favicon": {
           "label": "Favikona",
           "info": "Zobrazeno ve velikosti 32 x 32px"
+        },
+        "logo_mobile": {
+          "label": "Mobilní logo",
+          "info": "Volitelné. Pokud je nastaveno, nahradí výše uvedené logo na malých obrazovkách (do 749px). Ponechte prázdné pro použití stejného loga všude."
+        },
+        "logo_mobile_width": {
+          "label": "Šířka mobilního loga"
         }
       }
     },
@@ -1133,6 +1140,10 @@
         },
         "content": {
           "content": "obsah"
+        },
+        "image_mobile": {
+          "label": "Mobilní obrázek",
+          "info": "Volitelné. Pokud je nastaven, nahradí výše uvedený obrázek na malých obrazovkách (do 749px) místo obrázku pro počítač. Neovlivňuje rozvržení se dvěma obrázky vedle sebe."
         }
       },
       "blocks": {

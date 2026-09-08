@@ -1,12 +1,18 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
+  {%- liquid
+    assign mobile_aspect_ratio = section.settings.image.aspect_ratio
+    if section.settings.image_2 == blank and section.settings.image_mobile != blank
+      assign mobile_aspect_ratio = section.settings.image_mobile.aspect_ratio
+    endif
+  -%}
   {%- style -%}
     @media screen and (max-width: 749px) {
       #Banner-{{ section.id }}::before,
       #Banner-{{ section.id }} .banner__media::before,
       #Banner-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
-        padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
+        padding-bottom: {{ 1 | divided_by: mobile_aspect_ratio | times: 100 }}%;
         content: '';
         display: block;
       }
@@ -26,6 +32,24 @@
 {%- style -%}
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+  }
+
+  #Banner-{{ section.id }} .banner__media-image--mobile-only {
+    display: block;
+  }
+
+  #Banner-{{ section.id }} .banner__media-image--desktop-only {
+    display: none;
+  }
+
+  @media screen and (min-width: 750px) {
+    #Banner-{{ section.id }} .banner__media-image--mobile-only {
+      display: none;
+    }
+
+    #Banner-{{ section.id }} .banner__media-image--desktop-only {
+      display: block;
+    }
   }
 {%- endstyle -%}
 
@@ -59,8 +83,12 @@
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {%- liquid
         assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
+        assign show_mobile_image = false
         if section.settings.image_2 != blank
           assign image_class = 'banner__media-image-half'
+        elsif section.settings.image_mobile != blank
+          assign show_mobile_image = true
+          assign image_class = 'banner__media-image--desktop-only'
         endif
         if section.settings.image_2 != blank and section.settings.stack_images_on_mobile
           assign sizes = stacked_sizes
@@ -81,6 +109,22 @@
           widths: widths,
           fetchpriority: fetch_priority
       }}
+      {%- if show_mobile_image -%}
+        {%- liquid
+          assign image_mobile_height = section.settings.image_mobile.width | divided_by: section.settings.image_mobile.aspect_ratio
+        -%}
+        {{
+          section.settings.image_mobile
+          | image_url: width: 1500
+          | image_tag:
+            width: section.settings.image_mobile.width,
+            height: image_mobile_height,
+            class: 'banner__media-image--mobile-only',
+            sizes: '100vw',
+            widths: '375, 550, 750, 1100, 1500',
+            fetchpriority: fetch_priority
+        }}
+      {%- endif -%}
     </div>
   {%- elsif section.settings.image_2 == blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -184,6 +228,12 @@
       "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "t:sections.image-banner.settings.image_mobile.label",
+      "info": "t:sections.image-banner.settings.image_mobile.info"
     },
     {
       "type": "range",

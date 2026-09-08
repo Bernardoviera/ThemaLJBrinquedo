@@ -327,6 +327,13 @@
         "favicon": {
           "label": "Favorittikon",
           "info": "Vises med 32 x 32 piksler"
+        },
+        "logo_mobile": {
+          "label": "Mobil logo",
+          "info": "Valgfritt. Hvis angitt, erstatter den logoen over på små skjermer (opptil 749px). La stå tomt for å bruke samme logo overalt."
+        },
+        "logo_mobile_width": {
+          "label": "Bredde på mobil logo"
         }
       }
     },
@@ -1133,6 +1140,10 @@
         },
         "content": {
           "content": "Innhold"
+        },
+        "image_mobile": {
+          "label": "Mobilbilde",
+          "info": "Valgfritt. Hvis angitt, erstatter det bildet over på små skjermer (opptil 749px) i stedet for skrivebordsbildet. Påvirker ikke layouten med to bilder side ved side."
         }
       },
       "blocks": {

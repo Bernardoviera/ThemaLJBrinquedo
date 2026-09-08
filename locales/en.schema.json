@@ -159,6 +159,13 @@
         "favicon": {
           "label": "Favicon",
           "info": "Displayed at 32 x 32px"
+        },
+        "logo_mobile": {
+          "label": "Mobile logo",
+          "info": "Optional. When set, replaces the logo above on small screens (up to 749px). Leave blank to use the same logo at every size."
+        },
+        "logo_mobile_width": {
+          "label": "Mobile logo width"
         }
       }
     },
@@ -1288,6 +1295,10 @@
         },
         "show_text_below": {
           "label": "Container"
+        },
+        "image_mobile": {
+          "label": "Mobile image",
+          "info": "Optional. When set, replaces the image above on small screens (up to 749px) instead of the desktop image. Does not affect the side-by-side two-image layout."
         }
       },
       "blocks": {

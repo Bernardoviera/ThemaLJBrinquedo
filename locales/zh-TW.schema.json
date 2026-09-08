@@ -327,6 +327,13 @@
         "favicon": {
           "label": "Favicon",
           "info": "以 32 x 32 像素顯示"
+        },
+        "logo_mobile": {
+          "label": "行動裝置標誌",
+          "info": "選填。設定後，將在小螢幕（749px 以下）取代上方的標誌。留空則所有尺寸使用相同標誌。"
+        },
+        "logo_mobile_width": {
+          "label": "行動裝置標誌寬度"
         }
       }
     },
@@ -1133,6 +1140,10 @@
         },
         "content": {
           "content": "內容"
+        },
+        "image_mobile": {
+          "label": "行動裝置圖片",
+          "info": "選填。設定後，將在小螢幕（749px 以下）取代上方圖片，取代桌面圖片。不影響並排雙圖版面。"
         }
       },
       "blocks": {

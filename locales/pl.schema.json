@@ -327,6 +327,13 @@
         "favicon": {
           "label": "Ikona Favicon",
           "info": "Wyświetlane w rozmiarze 32 x 32 piksele"
+        },
+        "logo_mobile": {
+          "label": "Logo mobilne",
+          "info": "Opcjonalne. Jeśli ustawione, zastępuje powyższe logo na małych ekranach (do 749px). Pozostaw puste, aby używać tego samego logo wszędzie."
+        },
+        "logo_mobile_width": {
+          "label": "Szerokość logo mobilnego"
         }
       }
     },
@@ -1133,6 +1140,10 @@
         },
         "content": {
           "content": "Treść"
+        },
+        "image_mobile": {
+          "label": "Obraz mobilny",
+          "info": "Opcjonalne. Jeśli ustawiony, zastępuje powyższy obraz na małych ekranach (do 749px) zamiast obrazu na komputery. Nie wpływa na układ dwóch obrazów obok siebie."
         }
       },
       "blocks": {
