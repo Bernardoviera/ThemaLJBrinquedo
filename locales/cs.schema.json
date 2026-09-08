@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "Zákaznické účty spravujte v [nastavení šablony](/editor?context=theme&category=customer%20accounts)."
+        },
+        "header__transparent": {
+          "content": "Průhledná hlavička"
+        },
+        "transparent_home": {
+          "label": "Průhledná nad bannerem na domovské stránce",
+          "info": "Překryje hlavičku přes první banner domovské stránky (průhledné pozadí, bílý text). Na ostatních stránkách zůstává plná."
         }
       }
     },

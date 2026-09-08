@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "Hallitse asiakastilejä [teeman asetuksista](/editor?context=theme&category=customer%20accounts)."
+        },
+        "header__transparent": {
+          "content": "Läpinäkyvä ylätunniste"
+        },
+        "transparent_home": {
+          "label": "Läpinäkyvä etusivun bannerin päällä",
+          "info": "Asettaa ylätunnisteen etusivun ensimmäisen bannerin päälle (läpinäkyvä tausta, valkoinen teksti). Muilla sivuilla se pysyy täytenä."
         }
       }
     },

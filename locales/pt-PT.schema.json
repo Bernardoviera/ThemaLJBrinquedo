@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "Faça a gestão das contas de cliente nas [definições do tema](/editor?context=theme&category=customer%20accounts)."
+        },
+        "header__transparent": {
+          "content": "Cabeçalho transparente"
+        },
+        "transparent_home": {
+          "label": "Transparente sobre o banner na página inicial",
+          "info": "Sobrepõe o cabeçalho ao primeiro banner da home (fundo transparente, texto branco). Nas restantes páginas mantém-se sólido."
         }
       }
     },

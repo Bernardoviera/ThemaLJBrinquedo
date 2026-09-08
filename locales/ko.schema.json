@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "[테마 설정](/editor?context=theme&category=customer%20accounts)에서 고객 계정을 관리하십시오."
+        },
+        "header__transparent": {
+          "content": "투명 헤더"
+        },
+        "transparent_home": {
+          "label": "홈페이지 배너 위에 투명하게 표시",
+          "info": "홈페이지 첫 배너 위에 헤더를 겹칩니다(배경 투명, 흰색 텍스트). 다른 페이지에서는 그대로 불투명하게 유지됩니다."
         }
       }
     },

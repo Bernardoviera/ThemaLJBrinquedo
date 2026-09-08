@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "Kundenkonten in den [Theme-Einstellungen](/editor?context=theme&category=customer%20accounts) verwalten."
+        },
+        "header__transparent": {
+          "content": "Transparente Kopfzeile"
+        },
+        "transparent_home": {
+          "label": "Transparent über dem Banner auf der Startseite",
+          "info": "Legt die Kopfzeile über das erste Banner der Startseite (transparenter Hintergrund, weißer Text). Auf allen anderen Seiten bleibt sie deckend."
         }
       }
     },

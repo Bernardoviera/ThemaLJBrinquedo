@@ -1174,6 +1174,13 @@
         },
         "customer_account_menu": {
           "content": "Manage customer accounts in [theme settings](/editor?context=theme&category=customer%20accounts)."
+        },
+        "header__transparent": {
+          "content": "Transparent header"
+        },
+        "transparent_home": {
+          "label": "Transparent over banner on the home page",
+          "info": "Overlays the header on the first home page banner (transparent background, white text). Stays solid on every other page."
         }
       }
     },

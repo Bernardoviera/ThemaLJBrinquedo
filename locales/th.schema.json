@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "จัดการบัญชีผู้ใช้ของลูกค้าใน[การตั้งค่าธีม](/editor?context=theme&category=customer%20accounts)"
+        },
+        "header__transparent": {
+          "content": "ส่วนหัวแบบโปร่งใส"
+        },
+        "transparent_home": {
+          "label": "โปร่งใสเหนือแบนเนอร์ในหน้าแรก",
+          "info": "วางส่วนหัวทับแบนเนอร์แรกของหน้าแรก (พื้นหลังโปร่งใส ข้อความสีขาว) หน้าอื่น ๆ ยังคงทึบตามปกติ"
         }
       }
     },

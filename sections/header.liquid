@@ -1,3 +1,9 @@
+{%- liquid
+  assign header_transparent = false
+  if section.settings.transparent_home and request.page_type == 'index'
+    assign header_transparent = true
+  endif
+-%}
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -122,6 +128,19 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  {%- if header_transparent -%}
+    #shopify-section-{{ section.id }} {
+      margin-bottom: calc(-1 * var(--header-height, 9rem));
+      background: transparent;
+      --color-foreground: 255, 255, 255;
+    }
+
+    #shopify-section-{{ section.id }} .header-wrapper {
+      background: transparent;
+      border-bottom-color: transparent;
+    }
+  {%- endif -%}
 {%- endstyle -%}
 
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
@@ -600,6 +619,17 @@
       "id": "show_line_separator",
       "default": true,
       "label": "t:sections.header.settings.show_line_separator.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.header.settings.header__transparent.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "transparent_home",
+      "default": true,
+      "label": "t:sections.header.settings.transparent_home.label",
+      "info": "t:sections.header.settings.transparent_home.info"
     },
     {
       "type": "header",

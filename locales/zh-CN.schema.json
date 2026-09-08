@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "在[模板设置](/editor?context=theme&category=customer%20accounts)中管理客户账户。"
+        },
+        "header__transparent": {
+          "content": "透明页眉"
+        },
+        "transparent_home": {
+          "label": "在首页横幅上透明显示",
+          "info": "将页眉叠加在首页第一个横幅上（背景透明、白色文字）。在其他页面上保持不透明。"
         }
       }
     },

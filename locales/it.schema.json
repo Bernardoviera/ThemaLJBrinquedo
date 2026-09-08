@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "Gestisci gli account clienti nelle [impostazioni del tema](/editor?context=theme&category=customer%20accounts)."
+        },
+        "header__transparent": {
+          "content": "Intestazione trasparente"
+        },
+        "transparent_home": {
+          "label": "Trasparente sopra il banner nella home page",
+          "info": "Sovrappone l'intestazione al primo banner della home (sfondo trasparente, testo bianco). Nelle altre pagine resta opaca."
         }
       }
     },

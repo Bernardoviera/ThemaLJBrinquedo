@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "[テーマ設定](/editor?context=theme&category=customer%20accounts)でお客様アカウントを管理します。"
+        },
+        "header__transparent": {
+          "content": "透明ヘッダー"
+        },
+        "transparent_home": {
+          "label": "ホームページのバナーの上で透明にする",
+          "info": "ホームページ最初のバナーにヘッダーを重ねます（背景透明、白いテキスト）。他のページでは通常どおり不透明のままです。"
         }
       }
     },

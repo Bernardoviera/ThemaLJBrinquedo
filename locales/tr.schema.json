@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "Müşteri hesaplarını [tema ayarlarından](/editor?context=theme&category=customer%20accounts) yönetin."
+        },
+        "header__transparent": {
+          "content": "Şeffaf üst bilgi"
+        },
+        "transparent_home": {
+          "label": "Ana sayfadaki banner üzerinde şeffaf",
+          "info": "Üst bilgiyi ana sayfanın ilk bannerinin üzerine bindirir (şeffaf arka plan, beyaz metin). Diğer sayfalarda dolu kalır."
         }
       }
     },

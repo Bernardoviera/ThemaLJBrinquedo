@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "在[佈景主題設定](/editor?context=theme&category=customer%20accounts)中管理顧客帳號。"
+        },
+        "header__transparent": {
+          "content": "透明頁首"
+        },
+        "transparent_home": {
+          "label": "在首頁橫幅上透明顯示",
+          "info": "將頁首疊加在首頁第一個橫幅上（背景透明、白色文字）。在其他頁面上維持不透明。"
         }
       }
     },

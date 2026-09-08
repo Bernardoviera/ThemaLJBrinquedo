@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "Administrer kundekonti i [temaindstillinger](/editor?context=theme&category=customer%20accounts)."
+        },
+        "header__transparent": {
+          "content": "Gennemsigtig header"
+        },
+        "transparent_home": {
+          "label": "Gennemsigtig over banneret på forsiden",
+          "info": "Lægger headeren oven på forsidens første banner (gennemsigtig baggrund, hvid tekst). På andre sider forbliver den solid."
         }
       }
     },

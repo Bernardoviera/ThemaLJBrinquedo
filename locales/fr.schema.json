@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "Gérer les comptes clients dans les [paramètres du thème](/editor?context=theme&category=customer%20accounts)."
+        },
+        "header__transparent": {
+          "content": "En-tête transparent"
+        },
+        "transparent_home": {
+          "label": "Transparent sur la bannière de la page d'accueil",
+          "info": "Superpose l'en-tête à la première bannière de l'accueil (fond transparent, texte blanc). Reste opaque sur les autres pages."
         }
       }
     },

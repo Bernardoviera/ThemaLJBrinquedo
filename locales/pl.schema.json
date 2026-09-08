@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "Zarządzaj kontami klientów w [ustawieniach szablonu](/editor?context=theme&category=customer%20accounts)."
+        },
+        "header__transparent": {
+          "content": "Przezroczysty nagłówek"
+        },
+        "transparent_home": {
+          "label": "Przezroczysty nad banerem na stronie głównej",
+          "info": "Nakłada nagłówek na pierwszy baner strony głównej (przezroczyste tło, biały tekst). Na pozostałych stronach pozostaje pełny."
         }
       }
     },

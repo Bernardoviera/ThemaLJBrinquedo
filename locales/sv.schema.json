@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "Hantera kundkonton i [temainställningar](/editor?context=theme&category=customer%20accounts)."
+        },
+        "header__transparent": {
+          "content": "Genomskinlig sidhuvud"
+        },
+        "transparent_home": {
+          "label": "Genomskinlig över bannern på startsidan",
+          "info": "Lägger sidhuvudet ovanpå startsidans första banner (genomskinlig bakgrund, vit text). På andra sidor förblir det heltäckande."
         }
       }
     },

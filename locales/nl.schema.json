@@ -1019,6 +1019,13 @@
         },
         "customer_account_menu": {
           "content": "Klantaccounts beheren in de [thema-instellingen](/editor?context=theme&category=customer%20accounts)."
+        },
+        "header__transparent": {
+          "content": "Transparante header"
+        },
+        "transparent_home": {
+          "label": "Transparant over de banner op de homepage",
+          "info": "Plaatst de header over de eerste banner van de homepage (transparante achtergrond, witte tekst). Op andere pagina's blijft hij ondoorzichtig."
         }
       }
     },
