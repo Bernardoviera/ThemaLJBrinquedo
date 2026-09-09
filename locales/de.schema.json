@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Mobiles Bild",
           "info": "Optional. Wenn festgelegt, ersetzt es das obige Bild auf kleinen Bildschirmen (bis 749px) anstelle des Desktop-Bilds. Beeinflusst nicht das Zwei-Bilder-Layout nebeneinander."
+        },
+        "mobile_image_height": {
+          "label": "Höhe auf Mobilgeräten",
+          "info": "Höhe des Bildbereichs auf kleinen Bildschirmen, unabhängig vom Desktop. Verhindert Beschneidung, wenn das mobile Bild ein anderes Seitenverhältnis hat."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Slideshow-Beschreibung",
           "info": "Beschreibe die Slideshow für Nutzer von Bildschirmlesegeräten",
           "default": "Slideshow zu deiner Marke"
+        },
+        "mobile_slide_height": {
+          "label": "Höhe auf Mobilgeräten",
+          "info": "Höhe des Bildbereichs auf kleinen Bildschirmen, unabhängig vom Desktop. Verhindert Beschneidung, wenn das mobile Bild ein anderes Seitenverhältnis hat."
         }
       },
       "blocks": {

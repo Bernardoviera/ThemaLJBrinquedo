@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Mobilní obrázek",
           "info": "Volitelné. Pokud je nastaven, nahradí výše uvedený obrázek na malých obrazovkách (do 749px) místo obrázku pro počítač. Neovlivňuje rozvržení se dvěma obrázky vedle sebe."
+        },
+        "mobile_image_height": {
+          "label": "Výška na mobilu",
+          "info": "Výška rámečku obrázku na malých obrazovkách, nezávislá na desktopu. Zabraňuje oříznutí, když má mobilní obrázek jiný poměr stran."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Popis prezentace",
           "info": "Popište prezentaci pro zákazníky používající čtečky obrazovky.",
           "default": "Prezentace o značce"
+        },
+        "mobile_slide_height": {
+          "label": "Výška na mobilu",
+          "info": "Výška rámečku obrázku na malých obrazovkách, nezávislá na desktopu. Zabraňuje oříznutí, když má mobilní obrázek jiný poměr stran."
         }
       },
       "blocks": {

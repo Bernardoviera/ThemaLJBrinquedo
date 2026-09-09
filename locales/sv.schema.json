@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Mobilbild",
           "info": "Valfritt. Om den anges ersätter den bilden ovan på små skärmar (upp till 749px) istället för skrivbordsbilden. Påverkar inte layouten med två bilder sida vid sida."
+        },
+        "mobile_image_height": {
+          "label": "Höjd på mobil",
+          "info": "Höjd på bildrutan på små skärmar, oberoende av desktop. Undviker beskärning när mobilbilden har ett annat bildförhållande."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Beskrivning bildspel",
           "info": "Beskriv bildspelet för användere av skärmläsare",
           "default": "Bildspel om vårt varumärke"
+        },
+        "mobile_slide_height": {
+          "label": "Höjd på mobil",
+          "info": "Höjd på bildrutan på små skärmar, oberoende av desktop. Undviker beskärning när mobilbilden har ett annat bildförhållande."
         }
       },
       "blocks": {

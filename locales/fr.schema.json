@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Image mobile",
           "info": "Facultatif. Si définie, remplace l'image ci-dessus sur les petits écrans (jusqu'à 749px) à la place de l'image de bureau. N'affecte pas la mise en page à deux images côte à côte."
+        },
+        "mobile_image_height": {
+          "label": "Hauteur sur mobile",
+          "info": "Hauteur du cadre image sur petits écrans, indépendante du bureau. Évite le rognage quand l'image mobile a un ratio différent."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Description du diaporama",
           "info": "Décrire le diaporama pour celles et ceux qui utilisent des lecteurs d’écran",
           "default": "Diaporama sur votre marque"
+        },
+        "mobile_slide_height": {
+          "label": "Hauteur sur mobile",
+          "info": "Hauteur du cadre image sur petits écrans, indépendante du bureau. Évite le rognage quand l'image mobile a un ratio différent."
         }
       },
       "blocks": {

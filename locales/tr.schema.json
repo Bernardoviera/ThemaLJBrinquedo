@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Mobil görsel",
           "info": "İsteğe bağlı. Ayarlanırsa, küçük ekranlarda (749px'e kadar) masaüstü görseli yerine yukarıdaki görselin yerini alır. Yan yana iki görsel düzenini etkilemez."
+        },
+        "mobile_image_height": {
+          "label": "Mobilde yükseklik",
+          "info": "Küçük ekranlarda görsel kutusunun yüksekliği, masaüstünden bağımsız. Mobil görselin farklı en-boy oranına sahip olduğunda kırpılmayı önler."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Slayt gösterisi açıklaması",
           "info": "Ekran okuyucu kullanan müşteriler için slayt gösterisini açıklayın",
           "default": "Markamız hakkında slayt gösterisi"
+        },
+        "mobile_slide_height": {
+          "label": "Mobilde yükseklik",
+          "info": "Küçük ekranlarda görsel kutusunun yüksekliği, masaüstünden bağımsız. Mobil görselin farklı en-boy oranına sahip olduğunda kırpılmayı önler."
         }
       },
       "blocks": {

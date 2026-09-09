@@ -31,6 +31,15 @@
   {%- endstyle -%}
 {%- endif -%}
 
+{%- liquid
+  assign mobile_height_rem = 34
+  case section.settings.mobile_slide_height
+    when 'small'
+      assign mobile_height_rem = 28
+    when 'large'
+      assign mobile_height_rem = 39
+  endcase
+-%}
 {%- style -%}
   #Slider-{{ section.id }} .slideshow__media-image--mobile-only {
     display: block !important;
@@ -49,6 +58,18 @@
       display: block !important;
     }
   }
+
+  {%- unless section.settings.slide_height == 'adapt_image' -%}
+    @media screen and (max-width: 749px) {
+      #Slider-{{ section.id }} .banner__media {
+        height: {{ mobile_height_rem }}rem !important;
+      }
+
+      #Slider-{{ section.id }} .banner__content {
+        min-height: {{ mobile_height_rem }}rem !important;
+      }
+    }
+  {%- endunless -%}
 {%- endstyle -%}
 
 <slideshow-component
@@ -358,6 +379,27 @@
       ],
       "default": "medium",
       "label": "t:sections.slideshow.settings.slide_height.label"
+    },
+    {
+      "type": "select",
+      "id": "mobile_slide_height",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.slideshow.settings.slide_height.options__2.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.slideshow.settings.slide_height.options__3.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.slideshow.settings.slide_height.options__4.label"
+        }
+      ],
+      "default": "medium",
+      "label": "t:sections.slideshow.settings.mobile_slide_height.label",
+      "info": "t:sections.slideshow.settings.mobile_slide_height.info"
     },
     {
       "type": "select",

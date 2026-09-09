@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Mobilbillede",
           "info": "Valgfrit. Hvis angivet, erstatter det billedet ovenfor på små skærme (op til 749px) i stedet for skrivebordsbilledet. Påvirker ikke layoutet med to billeder side om side."
+        },
+        "mobile_image_height": {
+          "label": "Højde på mobil",
+          "info": "Højden på billedboksen på små skærme, uafhængig af desktop. Undgår beskæring når mobilbilledet har et andet billedformat."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Beskrivelse af diasshow",
           "info": "Beskriv diasshowet for brugere med skærmlæser",
           "default": "Diasshow om vores brand"
+        },
+        "mobile_slide_height": {
+          "label": "Højde på mobil",
+          "info": "Højden på billedboksen på små skærme, uafhængig af desktop. Undgår beskæring når mobilbilledet har et andet billedformat."
         }
       },
       "blocks": {

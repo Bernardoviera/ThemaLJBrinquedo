@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Mobiilikuva",
           "info": "Valinnainen. Jos asetettu, korvaa yllä olevan kuvan pienillä näytöillä (enintään 749px) työpöytäkuvan sijaan. Ei vaikuta rinnakkaisten kuvien asetteluun."
+        },
+        "mobile_image_height": {
+          "label": "Korkeus mobiilissa",
+          "info": "Kuvaruudun korkeus pienillä näytöillä, työpöydästä riippumatta. Estää rajautumisen, kun mobiilikuvalla on eri kuvasuhde."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Diaesityksen kuvaus",
           "info": "Kuvaile diaesitystä näytönlukijoita käyttäville",
           "default": "Diaesitys brändistäsi"
+        },
+        "mobile_slide_height": {
+          "label": "Korkeus mobiilissa",
+          "info": "Kuvaruudun korkeus pienillä näytöillä, työpöydästä riippumatta. Estää rajautumisen, kun mobiilikuvalla on eri kuvasuhde."
         }
       },
       "blocks": {

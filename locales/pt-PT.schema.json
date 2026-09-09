@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Imagem para telemóvel",
           "info": "Opcional. Se definida, substitui a imagem acima em ecrãs pequenos (até 749px), em vez da imagem de desktop. Não afeta o layout com duas imagens lado a lado."
+        },
+        "mobile_image_height": {
+          "label": "Altura no telemóvel",
+          "info": "Altura da caixa de imagem em ecrãs pequenos, independente do desktop. Evita cortes ao usar uma imagem para telemóvel com proporção diferente."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Descrição da apresentação de diapositivos",
           "info": "Descreve a apresentação de diapositivos para quem usa leitor de ecrã",
           "default": "Apresentação de diapositivos sobre a nossa marca"
+        },
+        "mobile_slide_height": {
+          "label": "Altura no telemóvel",
+          "info": "Altura da caixa de imagem em ecrãs pequenos, independente do desktop. Evita cortes ao usar uma imagem para telemóvel com proporção diferente."
         }
       },
       "blocks": {

@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Imagem para dispositivos móveis",
           "info": "Opcional. Se definida, substitui a imagem acima em telas pequenas (até 749px), no lugar da imagem de desktop. Não afeta o layout com duas imagens lado a lado."
+        },
+        "mobile_image_height": {
+          "label": "Altura no mobile",
+          "info": "Altura da caixa de imagem em telas pequenas, independente do desktop. Evita corte ao usar uma imagem mobile de proporção diferente."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Descrição da apresentação de slides",
           "info": "Descreva a apresentação de slides para quem usa leitores de tela",
           "default": "Apresentação de slides sobre nossa marca"
+        },
+        "mobile_slide_height": {
+          "label": "Altura no mobile",
+          "info": "Altura da caixa de imagem em telas pequenas, independente do desktop. Evita corte ao usar uma imagem mobile de proporção diferente."
         }
       },
       "blocks": {

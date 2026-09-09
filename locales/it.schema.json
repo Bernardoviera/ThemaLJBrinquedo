@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Immagine per dispositivi mobili",
           "info": "Facoltativo. Se impostata, sostituisce l'immagine sopra sugli schermi piccoli (fino a 749px) al posto dell'immagine desktop. Non influisce sul layout a due immagini affiancate."
+        },
+        "mobile_image_height": {
+          "label": "Altezza su mobile",
+          "info": "Altezza del riquadro immagine sugli schermi piccoli, indipendente dal desktop. Evita il ritaglio quando l'immagine mobile ha proporzioni diverse."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Descrizione presentazione",
           "info": "Descrivi la presentazione per gli utenti che utilizzano i lettori di schermo",
           "default": "Presentazione sul nostro brand"
+        },
+        "mobile_slide_height": {
+          "label": "Altezza su mobile",
+          "info": "Altezza del riquadro immagine sugli schermi piccoli, indipendente dal desktop. Evita il ritaglio quando l'immagine mobile ha proporzioni diverse."
         }
       },
       "blocks": {

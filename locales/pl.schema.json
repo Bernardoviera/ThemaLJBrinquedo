@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Obraz mobilny",
           "info": "Opcjonalne. Jeśli ustawiony, zastępuje powyższy obraz na małych ekranach (do 749px) zamiast obrazu na komputery. Nie wpływa na układ dwóch obrazów obok siebie."
+        },
+        "mobile_image_height": {
+          "label": "Wysokość na urządzeniach mobilnych",
+          "info": "Wysokość ramki obrazu na małych ekranach, niezależna od komputera. Zapobiega przycinaniu, gdy obraz mobilny ma inne proporcje."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Opis pokazu slajdów",
           "info": "Opisz pokaz slajdów dla użytkowników korzystających z czytników ekranu",
           "default": "Pokaz slajdów na temat naszej marki"
+        },
+        "mobile_slide_height": {
+          "label": "Wysokość na urządzeniach mobilnych",
+          "info": "Wysokość ramki obrazu na małych ekranach, niezależna od komputera. Zapobiega przycinaniu, gdy obraz mobilny ma inne proporcje."
         }
       },
       "blocks": {

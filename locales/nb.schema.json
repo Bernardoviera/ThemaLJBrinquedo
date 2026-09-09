@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Mobilbilde",
           "info": "Valgfritt. Hvis angitt, erstatter det bildet over på små skjermer (opptil 749px) i stedet for skrivebordsbildet. Påvirker ikke layouten med to bilder side ved side."
+        },
+        "mobile_image_height": {
+          "label": "Høyde på mobil",
+          "info": "Høyden på bilderammen på små skjermer, uavhengig av desktop. Unngår beskjæring når mobilbildet har et annet sideforhold."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Beskrivelse av lysbildefremvisning",
           "info": "Beskriv lysbildefremvisningen for de som bruker skjermlesere",
           "default": "Lysbildefremvisning om merkevaren"
+        },
+        "mobile_slide_height": {
+          "label": "Høyde på mobil",
+          "info": "Høyden på bilderammen på små skjermer, uavhengig av desktop. Unngår beskjæring når mobilbildet har et annet sideforhold."
         }
       },
       "blocks": {

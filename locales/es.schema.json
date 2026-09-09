@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Imagen para móviles",
           "info": "Opcional. Si se define, reemplaza la imagen anterior en pantallas pequeñas (hasta 749px) en lugar de la imagen de escritorio. No afecta el diseño de dos imágenes lado a lado."
+        },
+        "mobile_image_height": {
+          "label": "Altura en móvil",
+          "info": "Altura del cuadro de imagen en pantallas pequeñas, independiente del escritorio. Evita recortes cuando la imagen móvil tiene una proporción distinta."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Descripción de la presentación de diapositivas",
           "info": "Describir la presentación de diapositivas para quienes usan lectores de pantalla",
           "default": "Presentación de diapositivas sobre tu marca"
+        },
+        "mobile_slide_height": {
+          "label": "Altura en móvil",
+          "info": "Altura del cuadro de imagen en pantallas pequeñas, independiente del escritorio. Evita recortes cuando la imagen móvil tiene una proporción distinta."
         }
       },
       "blocks": {

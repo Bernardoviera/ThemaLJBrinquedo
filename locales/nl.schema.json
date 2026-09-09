@@ -1141,6 +1141,10 @@
         "image_mobile": {
           "label": "Mobiele afbeelding",
           "info": "Optioneel. Indien ingesteld, vervangt dit de bovenstaande afbeelding op kleine schermen (tot 749px) in plaats van de desktopafbeelding. Heeft geen invloed op de lay-out met twee afbeeldingen naast elkaar."
+        },
+        "mobile_image_height": {
+          "label": "Hoogte op mobiel",
+          "info": "Hoogte van het afbeeldingsvak op kleine schermen, onafhankelijk van desktop. Voorkomt bijsnijden als de mobiele afbeelding een andere verhouding heeft."
         }
       },
       "blocks": {
@@ -2868,6 +2872,10 @@
           "label": "Beschrijving van diavoorstelling",
           "info": "Geef een beschrijving van de diavoorstelling voor mensen die schermlezers gebruiken",
           "default": "Diavoorstelling over ons merk"
+        },
+        "mobile_slide_height": {
+          "label": "Hoogte op mobiel",
+          "info": "Hoogte van het afbeeldingsvak op kleine schermen, onafhankelijk van desktop. Voorkomt bijsnijden als de mobiele afbeelding een andere verhouding heeft."
         }
       },
       "blocks": {

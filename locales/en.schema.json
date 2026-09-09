@@ -1296,6 +1296,10 @@
         "image_mobile": {
           "label": "Mobile image",
           "info": "Optional. When set, replaces the image above on small screens (up to 749px) instead of the desktop image. Does not affect the side-by-side two-image layout."
+        },
+        "mobile_image_height": {
+          "label": "Mobile height",
+          "info": "Height of the image box on small screens, independent of desktop. Avoids cropping when the mobile image has a different aspect ratio."
         }
       },
       "blocks": {
@@ -3086,6 +3090,10 @@
           "label": "Slideshow description",
           "info": "Describe the slideshow for those using screen readers",
           "default": "Slideshow about our brand"
+        },
+        "mobile_slide_height": {
+          "label": "Mobile height",
+          "info": "Height of the image box on small screens, independent of desktop. Avoids cropping when the mobile image has a different aspect ratio."
         }
       },
       "blocks": {

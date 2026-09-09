@@ -29,6 +29,15 @@
   {%- endstyle -%}
 {%- endif -%}
 
+{%- liquid
+  assign mobile_height_rem = 34
+  case section.settings.mobile_image_height
+    when 'small'
+      assign mobile_height_rem = 28
+    when 'large'
+      assign mobile_height_rem = 39
+  endcase
+-%}
 {%- style -%}
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
@@ -51,6 +60,18 @@
       display: block !important;
     }
   }
+
+  {%- unless section.settings.image_height == 'adapt' -%}
+    @media screen and (max-width: 749px) {
+      #Banner-{{ section.id }} .banner__media {
+        height: {{ mobile_height_rem }}rem !important;
+      }
+
+      #Banner-{{ section.id }} .banner__content {
+        min-height: {{ mobile_height_rem }}rem !important;
+      }
+    }
+  {%- endunless -%}
 {%- endstyle -%}
 
 {%- liquid
@@ -268,6 +289,27 @@
       ],
       "default": "medium",
       "label": "t:sections.image-banner.settings.image_height.label"
+    },
+    {
+      "type": "select",
+      "id": "mobile_image_height",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.image-banner.settings.image_height.options__2.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-banner.settings.image_height.options__3.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-banner.settings.image_height.options__4.label"
+        }
+      ],
+      "default": "medium",
+      "label": "t:sections.image-banner.settings.mobile_image_height.label",
+      "info": "t:sections.image-banner.settings.mobile_image_height.info"
     },
     {
       "type": "select",
