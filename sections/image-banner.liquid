@@ -37,6 +37,11 @@
     when 'large'
       assign mobile_height_rem = 39
   endcase
+
+  assign banner_mobile_ratio = blank
+  if section.settings.image_2 == blank and section.settings.image_mobile != blank
+    assign banner_mobile_ratio = section.settings.image_mobile.aspect_ratio
+  endif
 -%}
 {%- style -%}
   #Banner-{{ section.id }}::after {
@@ -63,7 +68,23 @@
 
   {%- unless section.settings.image_height == 'adapt' -%}
     @media screen and (max-width: 749px) {
-      {%- if section.settings.show_text_below -%}
+      {%- if banner_mobile_ratio -%}
+        {%- comment -%}
+          A mobile image was uploaded: size the box to its real ratio
+          instead of a fixed rem value, so it isn't cropped to fit an
+          unrelated height.
+        {%- endcomment -%}
+        #Banner-{{ section.id }} .banner__media {
+          height: auto !important;
+          aspect-ratio: {{ banner_mobile_ratio }} !important;
+        }
+
+        {%- unless section.settings.show_text_below -%}
+          #Banner-{{ section.id }} .banner__content {
+            min-height: 0 !important;
+          }
+        {%- endunless -%}
+      {%- elsif section.settings.show_text_below -%}
         #Banner-{{ section.id }} .banner__media {
           height: {{ mobile_height_rem }}rem !important;
         }
