@@ -16,6 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/1df99de1-0183-4ed1-bfa4-3a03c4e8afe6.png",
+            "image_mobile": "shopify://shop_images/f7fda528-a3c0-4df6-940d-09556151cd93.png",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h1",
@@ -29,28 +30,10 @@
             "text_alignment_mobile": "center",
             "color_scheme": ""
           }
-        },
-        "slide_RqwnPm": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Slide de imagem",
-            "heading_size": "h1",
-            "subheading": "Conte a história de sua marca com vídeos e imagens",
-            "button_label": "Etiqueta de botão",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
         }
       },
       "block_order": [
-        "slide_ydWFQT",
-        "slide_RqwnPm"
+        "slide_ydWFQT"
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
