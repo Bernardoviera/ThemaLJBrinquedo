@@ -292,18 +292,19 @@
           "type": "cta",
           "settings": {
             "label": "Para meninos",
-            "link": "shopify://collections/all"
+            "link": "shopify://collections/meninos"
           }
         },
         "cta-2": {
           "type": "cta",
           "settings": {
             "label": "Para meninas",
-            "link": "shopify://collections/all"
+            "link": "shopify://collections/meninas"
           }
         },
         "cta-3": {
           "type": "cta",
+          "disabled": true,
           "settings": {
             "label": "Presentes até R$ 50",
             "link": "shopify://collections/all"
