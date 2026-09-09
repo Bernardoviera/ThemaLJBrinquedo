@@ -120,11 +120,18 @@
     "trust_bar": {
       "type": "trust-bar",
       "blocks": {
+        "item_cEG96V": {
+          "type": "item",
+          "settings": {
+            "icon": "check_mark",
+            "text": "Compra 100% segura"
+          }
+        },
         "item-1": {
           "type": "item",
           "settings": {
             "icon": "truck",
-            "text": "Frete para todo o Brasil"
+            "text": "Frete para todo o País"
           }
         },
         "item-2": {
@@ -150,6 +157,7 @@
         }
       },
       "block_order": [
+        "item_cEG96V",
         "item-1",
         "item-2",
         "item-3",
