@@ -64,6 +64,26 @@
     }
   }
 
+  {%- if section.settings.show_text_below -%}
+    @media screen and (max-width: 749px) {
+      {%- comment -%}
+        Dawn's own component-slideshow.css forces the text box to
+        flex-grow: 1 and height: 100% below the image on mobile — sized
+        to fill whatever's left over, not to its own (possibly empty)
+        content. That's what stretches an empty text box into a big
+        blank block. Only actually want that growth when there's text
+        to show.
+      {%- endcomment -%}
+      #Slider-{{ section.id }} .slideshow__text-wrapper {
+        flex-grow: 0 !important;
+      }
+
+      #Slider-{{ section.id }} .slideshow__text.banner__box {
+        height: auto !important;
+      }
+    }
+  {%- endif -%}
+
   {%- unless section.settings.slide_height == 'adapt_image' -%}
     @media screen and (max-width: 749px) {
       {%- if first_mobile_ratio -%}
