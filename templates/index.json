@@ -167,6 +167,7 @@
         "age-0-2": {
           "type": "age_group",
           "settings": {
+            "image": "shopify://shop_images/0e0178af-3f61-4e9d-b05a-5feb7d7218d5.png",
             "title": "0-2 anos",
             "link": "shopify://collections/0-a-2-anos"
           }
@@ -174,6 +175,7 @@
         "age-3-5": {
           "type": "age_group",
           "settings": {
+            "image": "shopify://shop_images/ed592984-54f1-4c84-bb91-71c901fbc66d.png",
             "title": "3-5 anos",
             "link": "shopify://collections/3-a-5-anos"
           }
@@ -181,6 +183,7 @@
         "age-6-8": {
           "type": "age_group",
           "settings": {
+            "image": "shopify://shop_images/803366b2-ba34-463a-8f07-c8b081484a8f.png",
             "title": "6-8 anos",
             "link": "shopify://collections/6-a-8-anos"
           }
@@ -188,6 +191,7 @@
         "age-9-mais": {
           "type": "age_group",
           "settings": {
+            "image": "shopify://shop_images/7a22fb90-53be-4be3-8ee5-74145c2727a5.png",
             "title": "9+ anos",
             "link": "shopify://collections/9-12-anos"
           }
