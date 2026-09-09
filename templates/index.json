@@ -168,28 +168,28 @@
           "type": "age_group",
           "settings": {
             "title": "0-2 anos",
-            "link": "shopify://collections/all"
+            "link": "shopify://collections/0-a-2-anos"
           }
         },
         "age-3-5": {
           "type": "age_group",
           "settings": {
             "title": "3-5 anos",
-            "link": "shopify://collections/all"
+            "link": "shopify://collections/3-a-5-anos"
           }
         },
         "age-6-8": {
           "type": "age_group",
           "settings": {
             "title": "6-8 anos",
-            "link": "shopify://collections/all"
+            "link": "shopify://collections/6-a-8-anos"
           }
         },
         "age-9-mais": {
           "type": "age_group",
           "settings": {
             "title": "9+ anos",
-            "link": "shopify://collections/all"
+            "link": "shopify://collections/9-12-anos"
           }
         }
       },
