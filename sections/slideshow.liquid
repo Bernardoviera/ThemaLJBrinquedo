@@ -33,20 +33,20 @@
 
 {%- style -%}
   #Slider-{{ section.id }} .slideshow__media-image--mobile-only {
-    display: block;
+    display: block !important;
   }
 
   #Slider-{{ section.id }} .slideshow__media-image--desktop-only {
-    display: none;
+    display: none !important;
   }
 
   @media screen and (min-width: 750px) {
     #Slider-{{ section.id }} .slideshow__media-image--mobile-only {
-      display: none;
+      display: none !important;
     }
 
     #Slider-{{ section.id }} .slideshow__media-image--desktop-only {
-      display: block;
+      display: block !important;
     }
   }
 {%- endstyle -%}

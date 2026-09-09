@@ -35,20 +35,20 @@
   }
 
   #Banner-{{ section.id }} .banner__media-image--mobile-only {
-    display: block;
+    display: block !important;
   }
 
   #Banner-{{ section.id }} .banner__media-image--desktop-only {
-    display: none;
+    display: none !important;
   }
 
   @media screen and (min-width: 750px) {
     #Banner-{{ section.id }} .banner__media-image--mobile-only {
-      display: none;
+      display: none !important;
     }
 
     #Banner-{{ section.id }} .banner__media-image--desktop-only {
-      display: block;
+      display: block !important;
     }
   }
 {%- endstyle -%}
