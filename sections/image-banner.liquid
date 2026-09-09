@@ -63,13 +63,15 @@
 
   {%- unless section.settings.image_height == 'adapt' -%}
     @media screen and (max-width: 749px) {
-      #Banner-{{ section.id }} .banner__media {
-        height: {{ mobile_height_rem }}rem !important;
-      }
-
-      #Banner-{{ section.id }} .banner__content {
-        min-height: {{ mobile_height_rem }}rem !important;
-      }
+      {%- if section.settings.show_text_below -%}
+        #Banner-{{ section.id }} .banner__media {
+          height: {{ mobile_height_rem }}rem !important;
+        }
+      {%- else -%}
+        #Banner-{{ section.id }} .banner__content {
+          min-height: {{ mobile_height_rem }}rem !important;
+        }
+      {%- endif -%}
     }
   {%- endunless -%}
 {%- endstyle -%}
