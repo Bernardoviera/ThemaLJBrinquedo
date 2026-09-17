@@ -562,7 +562,8 @@
           "cluster_title": {
             "many": "Cluster of {{number}} markers"
           }
-        }
+        },
+        "continue_button_label": "Next"
       },
       "customer_account": {
         "saved_address_option_description": {
