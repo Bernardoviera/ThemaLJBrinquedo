@@ -23,12 +23,15 @@
         "links": {
           "type": "link_list",
           "settings": {
-            "heading": "Institucional",
+            "heading": "Políticas",
             "menu": "footer"
           }
         }
       },
-      "block_order": ["brand", "links"],
+      "block_order": [
+        "brand",
+        "links"
+      ],
       "settings": {
         "color_scheme": "scheme-4",
         "newsletter_enable": false,
