@@ -756,6 +756,13 @@
         },
         "discount_codes_removed_or_modified_summary": {
           "many": "%{count} discount codes removed or modified"
+        },
+        "pending_payment": {
+          "oxxo": {
+            "days_left": {
+              "many": "%{count} days"
+            }
+          }
         }
       },
       "shipping_errors": {
