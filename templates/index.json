@@ -122,9 +122,10 @@
       "blocks": {
         "item_cEG96V": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "check_mark",
-            "text": "Compra 100% segura"
+            "text": ""
           }
         },
         "item-1": {
