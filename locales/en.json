@@ -725,6 +725,9 @@
         },
         "split_shipping_shipment_count_notice_one_time_purchase": {
           "many": "Your order will arrive in %{count} shipments"
+        },
+        "split_shipping_arrives_in_shipments": {
+          "many": "Arrives in %{count} shipments"
         }
       },
       "payment": {
@@ -981,6 +984,20 @@
         },
         "location_far_away_other_items": {
           "many": "%{count} locations with the items"
+        },
+        "stock_details": {
+          "ship_separately": {
+            "many": "The items will be shipped separately"
+          },
+          "remove_items": {
+            "many": "The items will be removed from the order."
+          }
+        },
+        "unavailable_item_count": {
+          "many": "%{count} items unavailable"
+        },
+        "ship_separately_notice": {
+          "many": "%{count} items will be shipped separately"
         }
       },
       "merchandise_unavailable_in_buyer_location": {
@@ -1024,6 +1041,16 @@
         },
         "items_count": {
           "many": "%{count} items"
+        }
+      },
+      "field_errors": {
+        "custom_field": {
+          "cart_metafield_value_too_long_with_limit": {
+            "many": "Enter %{count} characters or fewer."
+          },
+          "cart_metafield_value_too_short_with_limit": {
+            "many": "Enter at least %{count} characters."
+          }
         }
       }
     },
@@ -1079,6 +1106,11 @@
         },
         "gift_card_resend_button": {
           "many": "Resend gift cards"
+        },
+        "fulfillment_tracking": {
+          "gift_card_sent_to_recipient": {
+            "many": "The gift cards have been sent to the recipients."
+          }
         }
       }
     },
