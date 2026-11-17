@@ -55,6 +55,13 @@
       "next_slide": "Snímek vpravo",
       "previous_slide": "Snímek vlevo",
       "name": "Posuvník"
+    },
+    "whatsapp_button": {
+      "aria_label": "Napište nám na WhatsApp"
+    },
+    "meta": {
+      "tagged": "se štítkem \"{{ tags }}\"",
+      "page": "Stránka {{ page }}"
     }
   },
   "newsletter": {
@@ -225,6 +232,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Stránka nebyla nalezena",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Nebyly nalezeny žádné výsledky pro {{ terms }}. Zkontrolujte pravopis nebo zadejte jiné slovo či slovní spojení.",
       "title": "Výsledky hledání",
@@ -278,10 +289,6 @@
         "error_heading": "Upravte prosím následující informace:",
         "title": "Kontaktní formulář"
       }
-    },
-    "404": {
-      "title": "Stránka nebyla nalezena",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -399,6 +406,9 @@
       "min_error": "Tato položka vyžaduje minimum: {{ min }}",
       "max_error": "Tato položka vyžaduje maximum: {{ max }}",
       "step_error": "Tuto položku můžete přidat jen v přírůstcích hodnoty: {{ step }}"
+    },
+    "shop_by_age": {
+      "placeholder_label": "Věková skupina"
     }
   },
   "localization": {

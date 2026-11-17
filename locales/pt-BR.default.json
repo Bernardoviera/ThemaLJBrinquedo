@@ -67,6 +67,10 @@
     },
     "whatsapp_button": {
       "aria_label": "Fale conosco no WhatsApp"
+    },
+    "meta": {
+      "tagged": "marcado com \"{{ tags }}\"",
+      "page": "Página {{ page }}"
     }
   },
   "newsletter": {
@@ -233,6 +237,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Página não encontrada",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Não foram encontrados resultados para “{{ terms }}”. Verifique a ortografia ou use uma palavra ou frase diferente.",
       "results_with_count": {
@@ -281,10 +289,6 @@
         "error_heading": "Ajuste o seguinte:",
         "title": "Formulário de contato"
       }
-    },
-    "404": {
-      "title": "Página não encontrada",
-      "subtext": "404"
     }
   },
   "sections": {

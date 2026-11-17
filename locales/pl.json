@@ -55,6 +55,13 @@
       "next_slide": "Przesuń w prawo",
       "previous_slide": "Przesuń w lewo",
       "name": "Suwak"
+    },
+    "whatsapp_button": {
+      "aria_label": "Napisz do nas na WhatsApp"
+    },
+    "meta": {
+      "tagged": "oznaczone \"{{ tags }}\"",
+      "page": "Strona {{ page }}"
     }
   },
   "newsletter": {
@@ -225,6 +232,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Nie znaleziono strony",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Nie znaleziono wyników dla “{{ terms }}”. Sprawdź pisownię lub użyj innego słowa lub zwrotu.",
       "page": "Strona",
@@ -278,10 +289,6 @@
         "error_heading": "Dostosuj następujące dane:",
         "title": "Formularz kontaktowy"
       }
-    },
-    "404": {
-      "title": "Nie znaleziono strony",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -399,6 +406,9 @@
       "min_error": "Pozycja ma minimalny limit {{ min }}",
       "max_error": "Pozycja ma maksymalny limit {{ max }}",
       "step_error": "Możesz dodać tę pozycję tylko z przyrostem o {{ step }}"
+    },
+    "shop_by_age": {
+      "placeholder_label": "Przedział wiekowy"
     }
   },
   "localization": {

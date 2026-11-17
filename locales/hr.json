@@ -55,6 +55,13 @@
       "next_slide": "Klizno pomakni udesno",
       "previous_slide": "Klizno pomakni ulijevo",
       "name": "Kliznik"
+    },
+    "whatsapp_button": {
+      "aria_label": "Pišite nam na WhatsApp"
+    },
+    "meta": {
+      "tagged": "označeno \"{{ tags }}\"",
+      "page": "Stranica {{ page }}"
     }
   },
   "newsletter": {
@@ -221,6 +228,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Stranica nije pronađena",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Nije pronađen nijedan rezultat za „{{ terms }}”. Provjerite pravopis ili upotrijebite drugu riječ ili izraz.",
       "title": "Rezultati pretraživanja",
@@ -269,10 +280,6 @@
         "error_heading": "Prilagodite sljedeće:",
         "title": "Obrazac za kontakt"
       }
-    },
-    "404": {
-      "title": "Stranica nije pronađena",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -387,6 +394,9 @@
       "min_error": "Minimum za ovaj artikl iznosi {{ min }}",
       "max_error": "Maksimum za ovaj artikl iznosi {{ max }}",
       "step_error": "Ovaj artikl možete dodavati samo u rasponima povećanja od {{ step }}"
+    },
+    "shop_by_age": {
+      "placeholder_label": "Dobna skupina"
     }
   },
   "localization": {

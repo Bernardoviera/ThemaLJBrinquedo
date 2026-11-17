@@ -55,6 +55,13 @@
       "next_slide": "Skub til højre",
       "previous_slide": "Skub til venstre",
       "name": "Diasshow"
+    },
+    "whatsapp_button": {
+      "aria_label": "Skriv til os på WhatsApp"
+    },
+    "meta": {
+      "tagged": "tagget \"{{ tags }}\"",
+      "page": "Side {{ page }}"
     }
   },
   "newsletter": {
@@ -217,6 +224,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Siden blev ikke fundet",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Der blev ikke fundet nogen resultater for “{{ terms }}”. Kontrollér stavemåden, eller brug et andet ord eller udtryk.",
       "results_with_count": {
@@ -260,10 +271,6 @@
         "error_heading": "Juster følgende:",
         "title": "Kontaktformular"
       }
-    },
-    "404": {
-      "title": "Siden blev ikke fundet",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -375,6 +382,9 @@
       "min_error": "Denne vare har en minimumsgrænse på {{ min }}",
       "max_error": "Denne vare har en maksimumgrænse på {{ max }}",
       "step_error": "Du kan kun tilføje denne vare i intervaller på {{ step }}"
+    },
+    "shop_by_age": {
+      "placeholder_label": "Aldersgruppe"
     }
   },
   "localization": {

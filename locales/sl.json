@@ -55,6 +55,13 @@
       "next_slide": "Podrsajte desno",
       "previous_slide": "Podrsajte levo",
       "name": "Drsnik"
+    },
+    "whatsapp_button": {
+      "aria_label": "Pišite nam na WhatsApp"
+    },
+    "meta": {
+      "tagged": "z oznako \"{{ tags }}\"",
+      "page": "Stran {{ page }}"
     }
   },
   "newsletter": {
@@ -225,6 +232,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Strani ni mogoče najti",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Za »{{ terms }}« ni bil najden noben rezultat. Preverite črkovanje ali uporabite drugo besedo ali frazo.",
       "page": "Stran",
@@ -278,10 +289,6 @@
         "error_heading": "Prilagodite naslednje:",
         "title": "Obrazec za stik"
       }
-    },
-    "404": {
-      "title": "Strani ni mogoče najti",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -399,6 +406,9 @@
       "min_error": "Ta artikel ima najmanj {{ min }}",
       "max_error": "Ta artikel ima največ {{ max }}",
       "step_error": "Ta artikel lahko dodate samo v korakih po {{ step }}."
+    },
+    "shop_by_age": {
+      "placeholder_label": "Starostna skupina"
     }
   },
   "localization": {

@@ -55,6 +55,13 @@
       "next_slide": "Posunúť doprava",
       "previous_slide": "Posunúť doľava",
       "name": "Jazdec"
+    },
+    "whatsapp_button": {
+      "aria_label": "Napíšte nám na WhatsApp"
+    },
+    "meta": {
+      "tagged": "so štítkom \"{{ tags }}\"",
+      "page": "Strana {{ page }}"
     }
   },
   "newsletter": {
@@ -225,6 +232,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Stránka sa nenašla",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Pre výraz „{{ terms }}“ sa nenašli žiadne výsledky. Skontrolujte pravopis alebo použite iné slovo či slovné spojenie.",
       "title": "Výsledky vyhľadávania",
@@ -278,10 +289,6 @@
         "error_heading": "Upravte tieto údaje:",
         "title": "Kontaktný formulár"
       }
-    },
-    "404": {
-      "title": "Stránka sa nenašla",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -399,6 +406,9 @@
       "min_error": "Minimálne množstvo tejto položky je {{ min }}",
       "max_error": "Maximálne množstvo tejto položky je {{ max }}",
       "step_error": "Túto položku môžete pridať iba v prírastkoch po {{ step }}"
+    },
+    "shop_by_age": {
+      "placeholder_label": "Veková skupina"
     }
   },
   "localization": {

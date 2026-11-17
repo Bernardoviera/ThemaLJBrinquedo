@@ -55,6 +55,13 @@
       "next_slide": "Bild till höger",
       "previous_slide": "Bild till vänster",
       "name": "Bild"
+    },
+    "whatsapp_button": {
+      "aria_label": "Chatta med oss på WhatsApp"
+    },
+    "meta": {
+      "tagged": "taggad \"{{ tags }}\"",
+      "page": "Sida {{ page }}"
     }
   },
   "newsletter": {
@@ -217,6 +224,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Sidan hittades inte",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Inga resultat hittades för \"{{ terms }}\". Kontrollera stavningen eller använd ett annat ord eller fras.",
       "results_with_count": {
@@ -260,10 +271,6 @@
         "error_heading": "Justera följande:",
         "title": "Kontaktformulär"
       }
-    },
-    "404": {
-      "title": "Sidan hittades inte",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -375,6 +382,9 @@
       "min_error": "Den här artikeln har minst {{ min }}",
       "max_error": "Den här artikeln har max {{ max }}",
       "step_error": "Du kan endast lägga till den här artikeln med ökningar om {{ step }}"
+    },
+    "shop_by_age": {
+      "placeholder_label": "Åldersgrupp"
     }
   },
   "localization": {

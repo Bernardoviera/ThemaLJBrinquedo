@@ -55,6 +55,13 @@
       "next_slide": "右にスライド",
       "previous_slide": "左にスライド",
       "name": "スライダー"
+    },
+    "whatsapp_button": {
+      "aria_label": "WhatsAppでお問い合わせ"
+    },
+    "meta": {
+      "tagged": "タグ「{{ tags }}」",
+      "page": "{{ page }}ページ"
     }
   },
   "newsletter": {
@@ -217,6 +224,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "ページが見つかりません",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "「{{ terms }}」に一致する結果は見つかりませんでした。スペルを確認するか、別の単語やフレーズを使用してください。",
       "results_with_count": {
@@ -260,10 +271,6 @@
         "error_heading": "以下を確認してください。",
         "title": "お問い合わせフォーム"
       }
-    },
-    "404": {
-      "title": "ページが見つかりません",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -375,6 +382,9 @@
       "min_error": "このアイテムの最小値は{{ min }}です",
       "max_error": "このアイテムの最大値は{{ max }}です",
       "step_error": "このアイテムは、{{ step }}の増分でのみ追加できます"
+    },
+    "shop_by_age": {
+      "placeholder_label": "年齢層"
     }
   },
   "localization": {

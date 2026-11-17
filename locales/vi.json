@@ -55,6 +55,13 @@
       "next_slide": "Trượt sang phải",
       "previous_slide": "Trượt sang trái",
       "name": "Thanh trượt"
+    },
+    "whatsapp_button": {
+      "aria_label": "Nhắn tin cho chúng tôi qua WhatsApp"
+    },
+    "meta": {
+      "tagged": "gắn thẻ \"{{ tags }}\"",
+      "page": "Trang {{ page }}"
     }
   },
   "newsletter": {
@@ -217,6 +224,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Không tìm thấy trang",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Không tìm thấy kết quả cho \"{{ terms }}\". Kiểm tra chính tả hoặc sử dụng một từ hoặc cụm từ khác.",
       "results_with_count": {
@@ -260,10 +271,6 @@
         "error_heading": "Vui lòng điều chỉnh các mục sau:",
         "title": "Biểu mẫu liên hệ"
       }
-    },
-    "404": {
-      "title": "Không tìm thấy trang",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -375,6 +382,9 @@
       "min_error": "Mặt hàng này có tối thiểu {{ min }}",
       "max_error": "Mặt hàng này có tối đa {{ max }}",
       "step_error": "Bạn chỉ có thể thêm mặt hàng này theo đơn vị giao dịch {{ step }}"
+    },
+    "shop_by_age": {
+      "placeholder_label": "Độ tuổi"
     }
   },
   "localization": {

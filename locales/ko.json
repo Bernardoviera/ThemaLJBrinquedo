@@ -55,6 +55,13 @@
       "next_slide": "오른쪽으로 슬라이드",
       "previous_slide": "왼쪽으로 슬라이드",
       "name": "슬라이더"
+    },
+    "whatsapp_button": {
+      "aria_label": "WhatsApp으로 문의하기"
+    },
+    "meta": {
+      "tagged": "\"{{ tags }}\" 태그",
+      "page": "{{ page }}페이지"
     }
   },
   "newsletter": {
@@ -217,6 +224,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "페이지를 찾을 수 없음",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "\"{{ terms }}\"에 대한 검색 결과가 없습니다. 철자를 확인하거나 다른 단어/문구를 사용해 보십시오.",
       "results_with_count": {
@@ -260,10 +271,6 @@
         "error_heading": "다음을 조정하십시오.",
         "title": "연락처 양식"
       }
-    },
-    "404": {
-      "title": "페이지를 찾을 수 없음",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -375,6 +382,9 @@
       "min_error": "이 품목의 최소 개수는 {{ min }}개입니다.",
       "max_error": "이 품목은 최대 개수는 {{ max }}개입니다.",
       "step_error": "이 품목은 {{ step }}개 단위로만 추가할 수 있습니다."
+    },
+    "shop_by_age": {
+      "placeholder_label": "연령대"
     }
   },
   "localization": {

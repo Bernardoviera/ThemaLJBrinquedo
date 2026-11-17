@@ -55,6 +55,13 @@
       "next_slide": "Slinkti dešinėn",
       "previous_slide": "Slinkti kairėn",
       "name": "Slankiklis"
+    },
+    "whatsapp_button": {
+      "aria_label": "Rašykite mums per WhatsApp"
+    },
+    "meta": {
+      "tagged": "pažymėta „{{ tags }}“",
+      "page": "{{ page }} puslapis"
     }
   },
   "newsletter": {
@@ -225,6 +232,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Puslapis nerastas",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Nerasta jokių rezultatų pagal užklausą „{{ terms }}“. Patikrinkite rašybą arba vartokite kitą žodį ar frazę.",
       "page": "Puslapis",
@@ -278,10 +289,6 @@
         "error_heading": "Pakoreguokite toliau pateiktą informaciją.",
         "title": "Kontaktinė forma"
       }
-    },
-    "404": {
-      "title": "Puslapis nerastas",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -399,6 +406,9 @@
       "min_error": "Nustatytas mažiausias šios prekės kiekis: {{ min }}",
       "max_error": "Nustatytas didžiausias šios prekės kiekis: {{ max }}",
       "step_error": "Galima pridėti tik po {{ step }} vnt. šios prekės"
+    },
+    "shop_by_age": {
+      "placeholder_label": "Amžiaus grupė"
     }
   },
   "localization": {

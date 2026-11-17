@@ -55,6 +55,13 @@
       "next_slide": "投影片右側",
       "previous_slide": "投影片左側",
       "name": "投影播放器"
+    },
+    "whatsapp_button": {
+      "aria_label": "透過 WhatsApp 聯絡我們"
+    },
+    "meta": {
+      "tagged": "標籤為「{{ tags }}」",
+      "page": "第 {{ page }} 頁"
     }
   },
   "newsletter": {
@@ -217,6 +224,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "找不到頁面",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "找不到與「{{ terms }}」相符的結果。請檢查拼字或使用其他字詞。",
       "results_with_count": {
@@ -260,10 +271,6 @@
         "error_heading": "請調整以下內容：",
         "title": "聯絡表單"
       }
-    },
-    "404": {
-      "title": "找不到頁面",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -375,6 +382,9 @@
       "min_error": "此品項下限為 {{ min }}",
       "max_error": "此品項上限為 {{ max }}",
       "step_error": "只能以 {{ step }} 為增量新增此品項"
+    },
+    "shop_by_age": {
+      "placeholder_label": "年齡層"
     }
   },
   "localization": {

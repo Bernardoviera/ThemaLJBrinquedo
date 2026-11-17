@@ -55,6 +55,13 @@
       "next_slide": "Glisare la dreapta",
       "previous_slide": "Glisare la stânga",
       "name": "Glisor"
+    },
+    "whatsapp_button": {
+      "aria_label": "Scrie-ne pe WhatsApp"
+    },
+    "meta": {
+      "tagged": "etichetat „{{ tags }}”",
+      "page": "Pagina {{ page }}"
     }
   },
   "newsletter": {
@@ -221,6 +228,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Pagina nu a fost găsită",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Nu s-au găsit rezultate pentru „{{ terms }}”. Verificați ortografia sau utilizați alt cuvânt sau altă expresie.",
       "title": "Rezultatele căutării",
@@ -269,10 +280,6 @@
         "error_heading": "Vă rugăm să ajustați următoarele:",
         "title": "Formular de contact"
       }
-    },
-    "404": {
-      "title": "Pagina nu a fost găsită",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -387,6 +394,9 @@
       "min_error": "Pentru acest articol, valoarea minimă este de {{ min }}",
       "max_error": "Pentru acest articol, valoarea maximă este de {{ max }}",
       "step_error": "Poți introduce acest articol numai în incrementuri de {{ step }}"
+    },
+    "shop_by_age": {
+      "placeholder_label": "Grupă de vârstă"
     }
   },
   "localization": {

@@ -55,6 +55,13 @@
       "next_slide": "ไปสไลด์ขวา",
       "previous_slide": "ไปสไลด์ซ้าย",
       "name": "แถบเลื่อน"
+    },
+    "whatsapp_button": {
+      "aria_label": "แชทกับเราทาง WhatsApp"
+    },
+    "meta": {
+      "tagged": "แท็ก \"{{ tags }}\"",
+      "page": "หน้า {{ page }}"
     }
   },
   "newsletter": {
@@ -217,6 +224,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "ไม่พบหน้า",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "ไม่พบผลลัพธ์สำหรับ “{{ terms }}” ตรวจสอบการสะกดคำหรือลองค้นหาคำอื่น",
       "results_with_count": {
@@ -260,10 +271,6 @@
         "error_heading": "โปรดแก้ไขข้อมูลดังต่อไปนี้:",
         "title": "แบบฟอร์มการติดต่อ"
       }
-    },
-    "404": {
-      "title": "ไม่พบหน้า",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -375,6 +382,9 @@
       "min_error": "สินค้านี้มีจำนวนขั้นต่ำที่ {{ min }} รายการ",
       "max_error": "สินค้านี้มีจำนวนสูงสุดที่ {{ max }} รายการ",
       "step_error": "คุณสามารถเพิ่มสินค้านี้ได้ทีละ {{ step }} รายการในแต่ละครั้งเท่านั้น"
+    },
+    "shop_by_age": {
+      "placeholder_label": "ช่วงอายุ"
     }
   },
   "localization": {

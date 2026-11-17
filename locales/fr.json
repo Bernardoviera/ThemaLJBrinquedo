@@ -55,6 +55,13 @@
       "next_slide": "Faire glisser vers la droite",
       "previous_slide": "Faire glisser vers la gauche",
       "name": "Carrousel"
+    },
+    "whatsapp_button": {
+      "aria_label": "Écrivez-nous sur WhatsApp"
+    },
+    "meta": {
+      "tagged": "tagué \"{{ tags }}\"",
+      "page": "Page {{ page }}"
     }
   },
   "newsletter": {
@@ -221,6 +228,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Page non trouvée",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "Aucun résultat trouvé pour « {{ terms }} ». Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
       "results_with_count": {
@@ -269,10 +280,6 @@
         "error_heading": "Veuillez ajuster les éléments suivants :",
         "title": "Formulaire de contact"
       }
-    },
-    "404": {
-      "title": "Page non trouvée",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -387,6 +394,9 @@
       "min_error": "Cet article a un minimum de {{ min }}",
       "max_error": "Cet article a un maximum de {{ max }}",
       "step_error": "Vous pouvez ajouter cet article uniquement par incréments de {{ step }}"
+    },
+    "shop_by_age": {
+      "placeholder_label": "Tranche d'âge"
     }
   },
   "localization": {

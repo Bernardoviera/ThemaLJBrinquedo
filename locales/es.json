@@ -55,6 +55,13 @@
       "next_slide": "Diapositiva a la derecha",
       "previous_slide": "Diapositiva a la izquierda",
       "name": "Carrusel"
+    },
+    "whatsapp_button": {
+      "aria_label": "Escríbenos por WhatsApp"
+    },
+    "meta": {
+      "tagged": "etiquetado \"{{ tags }}\"",
+      "page": "Página {{ page }}"
     }
   },
   "newsletter": {
@@ -221,6 +228,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Página no encontrada",
+      "subtext": "404"
+    },
     "search": {
       "no_results": "No se encontraron resultados para “{{ terms }}” Revisa la ortografía o usa una palabra o frase diferente.",
       "results_with_count": {
@@ -269,10 +280,6 @@
         "error_heading": "Por favor, ajusta lo siguiente:",
         "title": "Formulario de contacto"
       }
-    },
-    "404": {
-      "title": "Página no encontrada",
-      "subtext": "404"
     }
   },
   "sections": {
@@ -387,6 +394,9 @@
       "min_error": "Este artículo tiene un mínimo de {{ min }}.",
       "max_error": "Este artículo tiene un máximo de {{ max }}.",
       "step_error": "Solo puedes agregar este artículo en incrementos de {{ step }}"
+    },
+    "shop_by_age": {
+      "placeholder_label": "Rango de edad"
     }
   },
   "localization": {
