@@ -162,9 +162,9 @@
           "background": "#f8f5f2",
           "background_gradient": "",
           "text": "#1a1a1a",
-          "button": "#c9a96e",
+          "button": "#00b27a",
           "button_label": "#ffffff",
-          "secondary_button_label": "#c9a96e",
+          "secondary_button_label": "#00b27a",
           "shadow": "#1a1a1a"
         }
       },
@@ -210,17 +210,6 @@
           "button_label": "#c20000",
           "secondary_button_label": "#ffffff",
           "shadow": "#000000"
-        }
-      },
-      "scheme-7": {
-        "settings": {
-          "background": "#ffffff",
-          "background_gradient": "",
-          "text": "#410f12",
-          "button": "#00b27a",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#410f12",
-          "shadow": "#410f12"
         }
       }
     }
